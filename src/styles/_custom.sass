@@ -10,10 +10,65 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+//Spans fondos 
+
+span
+  &.color-primario
+    background-color: rgba($color-primario , 0.6)
+  &.color-secundario
+    background-color: rgba($color-secundario , 0.6)
+  &.color-acento-contenido
+    background-color: rgba($color-acento-contenido , 0.6)
+  &.color-acento-botones
+    background-color: rgba($color-acento-botones , 0.6)
+.acordion__activo
+  background-color: #e2eacb !important
+.acordion-icon
+  i
+    color: $color-acento-botones
+.card-tema
+  position: relative
+  display: flex
+  background-color: #d3ede5
+  img
+    position: absolute
+    width: 350px
+    top: 0
+    left: 0
+    transform: translateY(-10%)
+.tarjeta-tabs
+  background-color: #deefff
+.tabs-a__tab
+  background-color: #dfe6cd
+.bg-slyde
+  background-image: url(../assets/curso/bg-slyde.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+.bg-1
+  background-image: url(../assets/curso/bg-1.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+.bg-2
+  background-image: url(../assets/curso/bg-2.svg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+.tabs-c__tab
+  background-color: #fff
+.tabs-c.color-acento-contenido .tabs-c__tab--active
+  border-bottom: 0px !important
+  border-top: 5px solid #badc61
+  background-color: #d3ede5
+.tabs-c__tab--active:before
+  display: none
+.tabs-c__header
+  margin-bottom: 0

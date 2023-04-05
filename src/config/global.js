@@ -1,19 +1,21 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Gestionar integralmente el manejo de residuos según normativa vigente',
+    descripcionCurso:
+      'Este componente formativo aborda aspectos generales y claves del control operacional en los sistemas de tratamiento para los diferentes tipos de residuos. Así mismo, afianzará al aprendiz en lo relacionado con tipos de materiales, diferentes tecnologías y metodologías de reciclaje, tratamiento y/o disposición de residuos, necesarias para identificar la mejor alternativa de gestión.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    // imagenesDecorativasBanner: [
+    //   {
+    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+    //   },
+    //   {
+    //     clases: ['banner-principal-decorativo-2'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+    //   },
+    // ],
   },
   menuPrincipal: {
     menu: [
