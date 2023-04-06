@@ -22,9 +22,6 @@
               tr
                 th RIESGOS
                 th OBSERVACIONES
-                
-                
-                
             tbody
               tr
                 td FÍSICO RUIDO
