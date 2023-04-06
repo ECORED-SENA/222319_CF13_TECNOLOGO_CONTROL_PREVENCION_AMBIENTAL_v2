@@ -60,6 +60,27 @@ export default {
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
