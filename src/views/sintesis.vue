@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Ha finalizado el estudio de las temáticas de este componente formativo. En este punto, haga un análisis juicioso del esquema que se muestra a continuación, registre su propia síntesis en su libreta personal de apuntes. Se le recomienda, además, repasar los temas que considere necesarios. ¡Adelante!
+    p.mb-5 Ha finalizado el estudio de las temáticas de este componente formativo. En este punto, haga un análisis juicioso del esquema que se muestra a continuación, registre su propia síntesis en su libreta personal de apuntes. Se le recomienda, además, repasar los temas que considere necesarios. ¡Adelante!
 
     .row.justify-content-center
       .col-lg-10.mb-5

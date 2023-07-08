@@ -11,7 +11,8 @@
     p.mb-5(data-aos='fade-right') Aquí comienza el estudio del componente formativo #[span.color-acento-contenido #[b “Gestionar integralmente el manejo de residuos según normativa vigente”.]] Como primer paso en este recorrido, observe con atención el video que se muestra enseguida. Muchos éxitos en esta experiencia:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/i28zdRiZ7cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Vide. Gestionar integralmente el manejo de residuos según normativa vigente.
     p.mb-5(data-aos='fade-right') Para adentrarse más y mejor en el estudio de este componente, considere sus respuestas a los anteriores interrogantes planteados en el video introductorio. A la vez, se le recomienda observar los videos que se proponen a continuación: 
     .row.justify-content-center.mb-2
       .col-lg-10 

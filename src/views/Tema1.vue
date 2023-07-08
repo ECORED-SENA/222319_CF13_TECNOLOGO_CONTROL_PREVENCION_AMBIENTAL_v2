@@ -7,9 +7,10 @@
         span 1
       h1 Conceptos Generales 
     .card-tema.p-4.mb-5
-      img.d-lg-block.d-none(src='@/assets/curso/temas/1/1.png', alt='')
+      img.card-1.d-xl-block.d-none(src='@/assets/curso/temas/1/1.png', alt='')
       .row.justify-content-center.align-items-center
-        .col-lg-4
+        .col-lg-4.col-6
+          img.d-xl-none.d-block(src='@/assets/curso/temas/1/1.png', alt='')
         .col-lg-8
           p.mb-0.p-4 Los sistemas de tratamiento y disposición de diferentes tipos de residuos suponen un conocimiento elemental de conceptos, términos e implementos que favorecen tal manejo. A continuación, se mostrarán algunos de los más relevantes y de uso común, y que le favorecerán en el estudio de este componente formativo:
     .pt-lg-4.pt-0

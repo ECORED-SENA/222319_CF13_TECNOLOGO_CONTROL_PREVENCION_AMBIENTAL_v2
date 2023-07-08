@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 3
       h1 Aprovechamiento y tratamiento residuos peligrosos
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-8.mb-lg-0.mb-3
         .cajon-b.color-acento-contenido.p-3.mb-5
           p.mb-0 De acuerdo con el informe nacional de generación y manejo de residuos o desechos peligrosos Colombia 2014-2015 del Instituto de hidrología, meteorología y estudios ambientales (IDEAM) (2016), el aprovechamiento de los residuos peligrosos se entiende como toda actividad orientada a recuperar el valor remanente o el poder calorífico de los materiales que componen el residuo.
-      .col-lg-4.col-6: img(src='@/assets/curso/temas/3/1.png', alt='')
+      .col-lg-4.col-6: img.d-lg-block.d-none(src='@/assets/curso/temas/3/1.png', alt='')
     div(style="background-color: #dee9f0").p-4.mb-5
       .row.justify-content-center.mb-5
         .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/2.svg', alt='')
@@ -133,18 +133,14 @@
       .col-lg-6.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/7.png', alt='')
       .col-lg-6 
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-            .row(titulo="Solidificación")
-              .col-md-7.mb-4.mb-md-0
-                p A partir de los residuos tratados, se forma una masa monolítica, incrementando su dureza y disminuyendo la compresibilidad y permeabilidad.
-            .row(titulo="Estabilización")
-              .col-md-7.mb-4.mb-md-0
-                p A través de esta técnica, se busca reducir el área superficial de los RESPEL, para reducir la transferencia de masa y la solubilidad de los contaminantes.
-            .row(titulo="Fijación inorgánica")
-              .col-md-7.mb-4.mb-md-0
-                p Los residuos sólidos peligrosos se mezclan con materiales como el cemento o la cal.
-            .row(titulo="Encapsulamiento")
-              .col-md-7.mb-4.mb-md-0
-                p Los residuos sólidos peligrosos se insertan en capas de asfalto, polietileno, o vidrio.
+            div(titulo="Solidificación")
+              p A partir de los residuos tratados, se forma una masa monolítica, incrementando su dureza y disminuyendo la compresibilidad y permeabilidad.
+            div(titulo="Estabilización")
+              p A través de esta técnica, se busca reducir el área superficial de los RESPEL, para reducir la transferencia de masa y la solubilidad de los contaminantes.
+            div(titulo="Fijación inorgánica")
+              p Los residuos sólidos peligrosos se mezclan con materiales como el cemento o la cal.
+            div(titulo="Encapsulamiento")
+              p Los residuos sólidos peligrosos se insertan en capas de asfalto, polietileno, o vidrio.
     Separador
     #t_3_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.6 Técnicas térmicas

@@ -18,6 +18,7 @@
       .col-lg-8 
         .tabla-a
           table
+            caption Nota. Adaptado de P+L (2017) Análisis de riesgo de la seguridad e higiene ocupacional durante el manejo de residuos sólidos y reciclaje de plástico de polietileno. p.66-68.
             thead(style="background-color: #bfdb77; border-top: 0 ")
               tr
                 th RIESGOS
@@ -27,13 +28,33 @@
                 td FÍSICO RUIDO
                 td Ruido de equipos y maquinaria en general en la planta de reciclaje, como es el caso de romper el vidrio, triturar algún material.
                   br
-                  Se requiere de protección acústica.
+                  |Se requiere de protección acústica.
               tr(style="background-color: #f6f6f6 ")
                 td BIOLÓGICO
                 td Mordedura de algún animal, como los roedores, porque, en algunos casos, el almacenamiento de materiales, como envases, llega con residuos que atraen estos vectores.
                   br
                   |Se requiere manejo de plagas en el lugar y estar vacunado contra la hepatitis B.
-    figcaption Nota. Adaptado de P+L (2017) Análisis de riesgo de la seguridad e higiene ocupacional durante el manejo de residuos sólidos y reciclaje de plástico de polietileno. p.66-68. 
+              tr
+                td DE SEGURIDAD MECÁNICO
+                td Aplastamiento o corte de alguna extremidad, como las manos, con herramientas o maquinaria. Protección, demarcación de áreas, uso de casco, nivel de apilado requerido según norma, amarras de la mercancía, sensores de movimiento en la maquinaria, capacitación al personal de la labor, guantes de carnaza, overol y no uso de joyas o accesorios que puedan crear atrapamientos en la maquinaria.
+              tr
+                td FÍSICO ILUMINACIÓN
+                td Por exceso al aire libre o por defecto. Si es por exceso, uso de monogafas con filtro solar; y si es por defecto, mejor iluminación del lugar.
+              tr
+                td FÍSICO VIBRACIÓN
+                td La vibración de la maquinaria. El operario tiene que entrar en contacto físico con la máquina, razón por la cual sufre mayor exposición a vibración en cuerpo total. Uso de elementos que mitiguen la vibración.
+              tr
+                td BIOMECÁNICO MOVIMIENTO REPETITIVO
+                td Movimientos repetitivos en las actividades requieren pausas activas.
+              tr
+                td BIOMECÁNICO SOBREESFUERZO
+                td Manejo manual de cargas pesadas, uso de postura adecuada y control de peso
+              tr
+                td SEGURIDAD LOCATIVA
+                td Caída de objetos , caída a nivel de piso, uso de casco y botas.
+              tr
+                td QUÍMICOS
+                td Inhalación o contacto con la piel de sustancias químicas que se encuentren en los materiales. Se requiere de mascarilla de gases y guantes resistentes a químicos.
                 
                 
                 

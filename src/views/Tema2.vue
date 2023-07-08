@@ -16,52 +16,51 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Papel y cartón
     .card-tema.p-4.mb-5(style="background-color: #fff9e5")
-      img.d-lg-block.d-none(src='@/assets/curso/temas/2/2.png', alt='')
+      img.card-1.d-xl-block.d-none(src='@/assets/curso/temas/2/2.png', alt='')
       .row.justify-content-center.align-items-center
-        .col-lg-4
+        .col-lg-4.col-6
+          img.d-xl-none.d-block(src='@/assets/curso/temas/2/2.png', alt='')
         .col-lg-8
           p.mb-0.p-2 El papel y el cartón son productos que se requieren para comunicación de información, trasmisión de conocimiento y cultura, empacar, transportar, y un sinnúmero de actividades de la vida diaria. En Colombia, el papel es producido a partir de fibras de celulosa obtenidas del bagazo de la caña de azúcar - residuo resultado de un proceso agroindustrial - o de madera proveniente de plantaciones forestales certificadas de pino y eucalipto, que son cosechadas y renovadas con fines comerciales, tal como se hace con otros cultivos agrícolas. Estas dos fuentes de celulosa tienen la gran ventaja de provenir de un recurso renovable, que también es reciclable y biodegradable.
     p.mb-5(data-aos='fade-right') #[b En relación con el reciclaje de papel y cartón, tenga en cuanta algunos aspectos clave, como los que se mencionan enseguida:]
     .row.justify-content-center.mb-5
       .col-lg-8
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          .row(titulo="Vida útil y nueva vida")
+          .row(titulo="Vida útil y nueva vida").justify-content-center
             .col-md-7.mb-4.mb-md-0
               p El reciclaje prolonga la vida útil de las fibras de celulosa al permitir que productos que ya han cumplido su vida útil se puedan utilizar como materia prima en la elaboración de nuevos papeles o cartones, convirtiéndose en otra fuente importante de abastecimiento de fibra de la industria papelera colombiana. 
-            .col-md-5
+            .col-md-5.col-6
               figure
-                img(src='@/assets/curso/temas/2/3.png', alt='Texto que describa la imagen')
-          .row(titulo="Colombia responsable")
+                img.m-auto(src='@/assets/curso/temas/2/3.png', alt='Texto que describa la imagen')
+          .row(titulo="Colombia responsable").justify-content-center
             .col-md-7.mb-4.mb-md-0
               p El reciclaje de papel en Colombia inició en los años 40, cuando las empresas productoras de cajas de cartón adecuaron su proceso productivo para incorporar desperdicios de cartón como insumo. La tendencia de recuperación de papel desde ese entonces ha sido creciente, alcanzando en los últimos 5 años un índice de recolección promedio del 47% del papel consumido.
-            .col-md-5
+            .col-md-5.col-6
               figure
-                img(src='@/assets/curso/temas/2/4.png', alt='Texto que describa la imagen')
-          .row(titulo="Reducción de necesidades y de consumo")
+                img.m-auto(src='@/assets/curso/temas/2/4.png', alt='Texto que describa la imagen')
+          .row(titulo="Reducción de necesidades y de consumo").justify-content-center
             .col-md-7.mb-4.mb-md-0
               p Con él, se reducen las necesidades de fibra virgen y, por lo tanto, las de los insumos y materias primas utilizados para producirla. Sin embargo, el reciclaje de las fibras de celulosa no es infinito, ya que en los procesos de repulpeo y refinación las fibras van perdiendo propiedades como longitud y resistencia, por lo que es necesario mezclarlas con fibra virgen para la producción de algunos productos.
-            .col-md-5
+            .col-md-5.col-6
               figure.mb-3
-                img(src='@/assets/curso/temas/2/5.png', alt='Texto que describa la imagen')
-            figcaption ANDI. (2017). Calidades de materiales para reciclaje. p.6. http://www.andi.com.co/Uploads/CARTILLA%20DE%20CALIDADES%20DE20MATERIALES%20PARA%20RECICLAJE.pdf
-          div(titulo="Muy importante")
+                img.m-auto(src='@/assets/curso/temas/2/5.png', alt='Texto que describa la imagen')
+          div(titulo="Almacenamiento").justify-content-center
             p.mb-0 El papel debe almacenarse en instalaciones cerradas con el fin de que no se altere su calidad ni adquiera humedad. Cuando el material es recibido en la bodega, se debe medir la humedad con un higrómetro, esta no debe pasar del 10%, ya que cualquier papel o cartón con un porcentaje adicional será descartado.
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true").mb-3
               span Ciclo del papel y cartón
               .indicador--click(v-if="mostrarIndicador")
-          .row(titulo="Perjudicial")
+          .row(titulo="Perjudicial").justify-content-center
             .col-md-7.mb-4.mb-md-0
               p Se consideran elementos perjudiciales para el proceso de reciclaje aquellos no fibrosos que deterioran la calidad del papel y el cartón, y que, además, perjudican el proceso productivo, los equipos y el producto final: trapos, plásticos, cauchos, hule, poliestireno expandido, vidrios, colillas de cigarrillo, residuos de aceites, deshechos de comidas, pinturas no solubles, humedad excesiva cuerdas de todo tipo, alambre, zunchos, metales de todo tipo, cabuyas, piedras, arena, madera, tierra o barro, residuos de cemento, papel alquitrán, de seguridad, químico, moneda, carbón, encerados, celofán, glassine, de fotografía, químico, papeles impregnados de parafina, de negro humo, de grasa, aceite o manteca.
-            .col-md-5
+            .col-md-5.col-6
               figure
-                img(src='@/assets/curso/temas/2/6.png', alt='Texto que describa la imagen')
-          .row(titulo="De sumo cuidado")
+                img.m-auto(src='@/assets/curso/temas/2/6.png', alt='Texto que describa la imagen')
+          .row(titulo="De sumo cuidado").justify-content-center
             .col-md-7.mb-4.mb-md-0
               p Es importantísimo que, en el proceso de reciclaje, los papeles no estén revestidos de plástico o con satinados plásticos, de cera, aluminio, barniz o laca, papeles con resistencia en húmedo o con barnizado resistentes a la humedad, papeles adhesivos con alma de tela o plástico, papeles o cintas con adhesivos no solubles en agua, moños o lomos con cualquier pegante, papeles laminados con aluminio u otros materiales, papeles deteriorados por acción nociva del tiempo, papeles artificiales elaborados a partir de plásticos o polímeros, canastas, bandejas o separadores de empaques para huevos o frutas.
-            .col-md-5
+            .col-md-5.col-6
               figure.mb-3
-                img(src='@/assets/curso/temas/2/7.png', alt='Texto que describa la imagen')
-            figcaption ANDI. (2017). Calidades de materiales para reciclaje. p.8. http://www.andi.com.co/Uploads/CARTILLA%20DE%20CALIDADES%20DE%20MATERIALES%20PARA%20RECICLAJE.pdf
+                img.m-auto(src='@/assets/curso/temas/2/7.png', alt='Texto que describa la imagen')
     ModalA(:abrir-modal.sync="modal1")
       .tarjeta.bg-white.p-1
         .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -148,46 +147,45 @@
       .col-lg-6: img(src='@/assets/curso/temas/2/12.svg', alt='')
     h4 Identificación
     p.mb-2(data-aos='fade-right') Por otra parte, se estableció un sistema de clasificación para facilitar la identificación de los plásticos, esto se reconoce al mirar la pieza de plástico: se encuentra el símbolo del reciclaje más un número. De esta manera, se facilita mucho el reciclaje del plástico, al identificar rápidamente y sin errores el tipo de polímero de que se trata.
-    figcaption.d-inline-block.mb-5 Recytrans (2013) ¿Cómo se recicla el plástico? - 
     div(style="background-color: #d6efff").p-5.mb-3
       p.mb-5(data-aos='fade-right') #[b En relación directa con lo anteriormente dicho, los requisitos que debe cumplir un residuo plástico para ser reciclado son: ]
       .row.justify-content-center.mb-5.align-items-start
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/13.png', alt='')
         .col-lg-8
           ul.lista-ul--color
-            li
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | No haber estado en contacto con sustancias tóxicas, como agroquímicos o residuos peligrosos ni con bacterias patógenas.
-            li
+              p.mb-0 No haber estado en contacto con sustancias tóxicas, como agroquímicos o residuos peligrosos ni con bacterias patógenas.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Sus propiedades mecánicas no deben estar deterioradas.
-            li
+              p.mb-0 Sus propiedades mecánicas no deben estar deterioradas.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Separar los residuos plásticos de acuerdo con su forma: envases, bolsas y pastas.
-            li
+              p.mb-0 Separar los residuos plásticos de acuerdo con su forma: envases, bolsas y pastas.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Separar las etiquetas, tapas y eliminar materiales extraños, como ganchos o residuos de comida.
-            li
+              p.mb-0 Separar las etiquetas, tapas y eliminar materiales extraños, como ganchos o residuos de comida.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Clasificar los materiales según sea el tipo de polímero (1 al 7).
-            li
+              p.mb-0 Clasificar los materiales según sea el tipo de polímero (1 al 7).
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Lavar el material, pero no se debe utilizar soda cáustica, detergentes o solventes fuertes; se debe escurrir y secar el material plástico, y controlar la calidad de las resinas recuperadas.
-            li
+              p.mb-0 Lavar el material, pero no se debe utilizar soda cáustica, detergentes o solventes fuertes; se debe escurrir y secar el material plástico, y controlar la calidad de las resinas recuperadas.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Molerlo, según el tipo de polímero (opcional).
-            li
+              p.mb-0 Molerlo, según el tipo de polímero (opcional).
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Almacenar en sitios cubiertos y con poca humedad.
-            li
+              p.mb-0 Almacenar en sitios cubiertos y con poca humedad.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Los pegantes se deben retirar del producto recuperado.
-            li
+              p.mb-0 Los pegantes se deben retirar del producto recuperado.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Se deben evitar materiales o productos impresos.
-            li
+              p.mb-0 Se deben evitar materiales o productos impresos.
+            li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              | Preferiblemente, no deben tener grasas u otros materiales viscosos.
+              p.mb-0 Preferiblemente, no deben tener grasas u otros materiales viscosos.
     figcaption.d-inline-flex.mb-5 ANDI. (2017). Calidades de materiales para reciclaje. p.11. 
     .row.justify-content-center.mb-5
       .col-lg-10 
@@ -244,138 +242,136 @@
       .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/14.png', alt='')
       .col-lg-7 
         p El principal objetivo ambiental del Tetra Pak es minimizar los impactos ambientales de sus productos a lo largo de todo su ciclo de vida, haciendo un uso eficiente de recursos en el desarrollo y diseño de los mismos, en sus procesos de manufactura y en sus operaciones.
-        figcaption.d-inline-block Nota. Infopack (2019). Tetra Pak supera los 500 mil millones de envases certificados FSC. 
     .mn(style="background-color: #ecf7f4").p-5.mb-5
-      p #[b Conozca algunas generalidades que vale la pena tener en cuenta sobre el Tetra Pak en los procesos de reciclaje y medio ambiente: ]
+      p.mb-5 Conozca algunas generalidades que vale la pena tener en cuenta sobre el Tetra Pak en los procesos de reciclaje y medio ambiente: 
       TabsC.color-acento-contenido.mb-5
         .p-4.p-md-5(titulo="Materias primas renovables" style="background-color: #d3ede5 ")
-            .row.align-items-center
-              .col-md-8.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-lg-8.mb-4.mb-md-0
                 .tarjeta.bg-white.p-4.rounded-0
                   p El Tetra Pak busca que sus envases provengan en un 100% de materias primas renovables, para lo cual trabaja de la mano con los proveedores de pulpa (donde el objetivo es que todos tengan certificación FSCTM), de aluminio y plástico. Igualmente, todas las acciones de diseño de nuevos envases y sistemas de llenado buscan que estos sean más eficientes, reciclables y con mayor porcentaje de materiales; todas las plantas a nivel mundial están certificadas con la norma ISO 14001, enfocándose en programas de reducción, minimización, mitigación y compensación de impactos ambientales en el proceso productivo.
-              .col-md-4: img(src='@/assets/curso/temas/2/15.png', alt='')
+              .col-lg-4.col-8: img(src='@/assets/curso/temas/2/15.png', alt='')
         .p-4.p-md-5(titulo="En cuanto a reciclaje" style="background-color: #d3ede5 ")
-            .row.align-items-center
-              .col-md-8.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-lg-8.mb-4.mb-md-0
                 .tarjeta.bg-white.p-4.rounded-0
                   p Tetra Pak® está invirtiendo en la colocación de equipos en la industria papelera y de aglomerados, para que estas industrias aprovechen los envases de Tetra Pak posconsumo y posindustria como materia prima. De esta forma, estas empresas fabrican papel, cajas corrugadas, cartón gris, tubos de cartón, muebles, láminas aglomeradas y tejas. En Colombia, existen tres plantas de reciclaje de pulpa de papel, que incluyen el reciclaje de los envases de Tetra Pak, ubicadas en las ciudades de Bogotá, Cali y Medellín (planta integrada). Por otro lado, existen dos plantas que aprovechan los residuos de polietileno y aluminio provenientes del despulpado de los envases de Tetra Pak, una en Bogotá y una en Medellín.
-              .col-md-4: img(src='@/assets/curso/temas/2/16.png', alt='')
-              figcaption.mt-4 ANDI (2017). Calidades de materiales para reciclaje. p.14 - http://www.andi.com.co/Uploads/CARTILLA%20DE%20CALIDADES%20DE%20MATERIALES%20PARA%20R ECICLAJE.pdf
+              .col-lg-4.col-8: img(src='@/assets/curso/temas/2/16.png', alt='')
         .p-4.p-md-5(titulo="Pasos claves" style="background-color: #d3ede5 ")
-            .row.align-items-center
-              .col-md-8.mb-4.mb-md-0
+            .row.align-items-center.justify-content-center
+              .col-lg-8.mb-4.mb-md-0
                 .tarjeta.bg-white.p-4.rounded-0
-                  p Es importante que las fuentes de material de las bodegas, principalmente las de origen doméstico, comercial e institucional, que consumen los envases de Tetra Pak, realicen tres sencillos pasos antes de desecharlos en el contenedor de residuos reciclables: Enjuagar, escurrir y aplanar. Únicamente cuando algún operador o bodega maneje material posindustrial que ha tenido contacto con productos (leches y jugos) en algún cliente industrial (por ejemplo, Colanta, Alpina, Incolacteos, Parmalat, Postobón, etc.), es necesario lavarlo con abundante agua, debido al alto contenido de líquido. No es necesario separar los envases por tipo, esto quiere decir que se pueden mezclar envases de Tetra Pak de leche, jugos y licores sin problema. 
-              .col-md-4: img(src='@/assets/curso/temas/2/17.png', alt='')
+                  p Es importante que las fuentes de material de las bodegas, principalmente las de origen doméstico, comercial e institucional, que consumen los envases de #[b Tetra Pak], realicen tres sencillos pasos antes de desecharlos en el contenedor de residuos reciclables: enjuagar, escurrir y aplanar. Únicamente cuando algún operador o bodega maneje material posindustrial que ha tenido contacto con productos (leches y jugos) en algún cliente industrial (por ejemplo, Colanta, Alpina, Incolacteos, Parmalat, Postobón, etc.), es necesario lavarlo con abundante agua, debido al alto contenido de líquido. No es necesario separar los envases por tipo, esto quiere decir que se pueden mezclar envases de Tetra Pak de leche, jugos y licores sin problema. 
+              .col-lg-4.col-8: img(src='@/assets/curso/temas/2/17.png', alt='')
     p.mb-5(data-aos='fade-right') En el siguiente recurso se muestran algunos requerimientos y necesidades del proceso de reciclaje del Tetra Pak. Se recomienda tomar nota atenta de los aspectos más importantes. ¡Adelante!
     .tarjeta.rounded-pill.p-2.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Reciclaje del Tetra Pak
     .bg-slyde.p-5.mb-5
       SlyderA(tipo="b")
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center
+          .col-lg-8.mb-4.mb-md-0
             h4 Máquinas compactadoras
             p Si la bodega cuenta con máquina compactadora, siga las siguientes recomendaciones:
             ul.lista-ul--color
-              li
+              li.d-flex
+                i.fa.fa-check(style="color: #feb12e")
+                p.mb-0 Enfardar el material en compactadoras hidráulicas. Si se tiene montacargas, se pueden armar pacas o fardos de máximo 300 kg. Sin embargo, el peso ideal está entre 100 y 150 kg por paca.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Enfardar el material en compactadoras hidráulicas. Si se tiene montacargas, se pueden armar pacas o fardos de máximo 300 kg. Sin embargo, el peso ideal está entre 100 y 150 kg por paca.
-              li
+                p.mb-0 Si no se tiene montacargas, se deben armar pacas de máximo 50 kg. Armar la paca únicamente con envases posconsumo de Tetra Pak.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Si no se tiene montacargas, se deben armar pacas de máximo 50 kg. Armar la paca únicamente con envases posconsumo de Tetra Pak.
-              li
+                p.mb-0 Verificar que el material esté lo más seco posible, sin contenido de producto o agua. Siempre entregar compactado y nunca envolver las pacas en plástico.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Verificar que el material esté lo más seco posible, sin contenido de producto o agua. Siempre entregar compactado y nunca envolver las pacas en plástico.
-              li
+                p.mb-0 No envolver material posindustrial (material proveniente de rollos vencidos) en las pacas. Si hay material posindustrial, es necesario cortarlo a un tamaño máximo de 50 cm, para evitar problemas en el proceso de reciclaje.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | No envolver material posindustrial (material proveniente de rollos vencidos) en las pacas. Si hay material posindustrial, es necesario cortarlo a un tamaño máximo de 50 cm, para evitar problemas en el proceso de reciclaje.
-              li
+                p.mb-0 En el proceso de compactación, colocar cartón a cada lado de la paca para evitar que se desarme fácilmente.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                |En el proceso de compactación, colocar cartón a cada lado de la paca para evitar que se desarme fácilmente.
-              li
+                p.mb-0 Amarrar la paca con alambre de calibre 12 y no con zuncho, porque se puede romper fácilmente.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Amarrar la paca con alambre de calibre 12 y no con zuncho, porque se puede romper fácilmente.
-              li
-                i.fas.fa-check(style="color: #feb12e")
-                | Después de armada la paca, fumigue con hipoclorito o cualquier inhibidor de malos olores y vectores
-          .col-md-4
+                p.mb-0 Después de armada la paca, fumigue con hipoclorito o cualquier inhibidor de malos olores y vectores
+          .col-lg-4.col-8
             figure
-              img(src='@/assets/curso/temas/2/18.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+              img.m-auto(src='@/assets/curso/temas/2/18.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-lg-8.mb-4.mb-md-0
             h4 Almacenamiento de material
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
-              li
+                p.mb-0 Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
-              li
+                p.mb-0 Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
-              li
+                p.mb-0 En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
-              li
+                p.mb-0 En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Si no se tiene montacargas, se recomienda apilar en máximo 2 niveles dentro del espacio asignado para almacenar el material.
-              li
+                p.mb-0 Si no se tiene montacargas, se recomienda apilar en máximo 2 niveles dentro del espacio asignado para almacenar el material.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Cuando no se cuente con compactadora hidráulica, se puede almacenar el material suelto, únicamente teniendo en cuenta que este debe ir en una lona o big bag (globo) separado de otros materiales.
-          .col-md-4
+                p.mb-0 Cuando no se cuente con compactadora hidráulica, se puede almacenar el material suelto, únicamente teniendo en cuenta que este debe ir en una lona o big bag (globo) separado de otros materiales.
+          .col-lg-4.col-8
             figure
-              img(src='@/assets/curso/temas/2/19.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+              img.m-auto(src='@/assets/curso/temas/2/19.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-lg-8.mb-4.mb-md-0
             h4 Entrega a planta de reciclaje
             p  Todas las plantas de reciclaje de envases de Tetra Pak reciben el material compactado o suelto. Para la recolección, tenga en cuenta:
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Comunicación previa con la planta de reciclaje. 
-              li
+                p.mb-0 Comunicación previa con la planta de reciclaje. 
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Tener en cuenta los horarios de recepción del material. 
-              li
+                p.mb-0 Tener en cuenta los horarios de recepción del material. 
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Hay que tener en cuenta un máximo de un 15% de humedad por cada paca. 
-              li
+                p.mb-0 Hay que tener en cuenta un máximo de un 15% de humedad por cada paca. 
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Comunicarse con la planta para tener en cuenta los documentos requeridos para el trámite de pagos.
-          .col-md-4
+                p.mb-0 Comunicarse con la planta para tener en cuenta los documentos requeridos para el trámite de pagos.
+          .col-lg-4.col-8
             figure
-              img(src='@/assets/curso/temas/2/20.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
-            h4 Requisitos de un residuo #[em Tetra Pak] para ser reciclado
+              img.m-auto(src='@/assets/curso/temas/2/20.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-lg-8.mb-4.mb-md-0
+            h4 Requisitos de un residuo  Tetra Pak para ser reciclado
             p 
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | No mezclar con otros envases de sólo plástico y aluminio, como los doypack o cajas plegadizas.
-              li
+                p.mb-0 No mezclar con otros envases de sólo plástico y aluminio, como los doypack o cajas plegadizas.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                p.mb-0 Cualquier otro residuo diferente a los envases de #[em Tetra Pak.]
-              li
+                p.mb-0.mb-0 Cualquier otro residuo diferente a los envases de Tetra Pak.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | No mezclar con material posindustrial proveniente de rollos vencidos.
-              li
+                p.mb-0 No mezclar con material posindustrial proveniente de rollos vencidos.
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | Para que este material sea aceptado, los rollos deben ser cortados a un tamaño máximo de 50 cm X 50 cm antes de ser compactados y entregados a planta.
-          .col-md-4
+                p.mb-0 Para que este material sea aceptado, los rollos deben ser cortados a un tamaño máximo de 50 cm X 50 cm antes de ser compactados y entregados a planta.
+          .col-lg-4.col-8
             figure
-              img(src='@/assets/curso/temas/2/21.png', alt='Texto que describa la imagen')
-        .row.align-items-center
-          .col-md-8.mb-4.mb-md-0
+              img.m-auto(src='@/assets/curso/temas/2/21.png', alt='Texto que describa la imagen')
+        .row.align-items-center.justify-content-center
+          .col-lg-8.mb-4.mb-md-0
             h4 Envases con fibra blanc
             ul.lista-ul--color
-              li
+              li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
-                | La mayor cantidad de envases que se encuentran en el mercado colombiano son Tetra Brik Aseptic (ladrillo) de todos los tamaños, los cuales contienen fibra marrón. Se pueden encontrar otro tipo de envases que contienen fibra blanca, pero su participación con respecto a los de fibra marrón es mínima.
-          .col-md-4
+                p.mb-0 La mayor cantidad de envases que se encuentran en el mercado colombiano son Tetra Brik Aseptic (ladrillo) de todos los tamaños, los cuales contienen fibra marrón. Se pueden encontrar otro tipo de envases que contienen fibra blanca, pero su participación con respecto a los de fibra marrón es mínima.
+          .col-lg-4.col-8
             figure
-              img(src='@/assets/curso/temas/2/22.png', alt='Texto que describa la imagen')
+              img.m-auto(src='@/assets/curso/temas/2/22.png', alt='Texto que describa la imagen')
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Vidrio
@@ -404,26 +400,63 @@
           ol.lista-ol--cuadro
             li
               .lista-ol--cuadro__vineta(style="background-color: #feb12e")
-                span A
+                span(style="color:#243943").fw-bold A
               | Separar: se trata de clasificar por colores blanco, ámbar, verde, y, a su vez, clasificarlos por limpio y sucio. Quitar tapas, anillos y demás elementos ajenos al material, catalogados como contaminantes del vidrio.
             li
               .lista-ol--cuadro__vineta(style="background-color: #feb12e")
-                span B
+                span(style="color:#243943").fw-bold B
               | Quebrar: esta es una recomendación al proveedor, más no es una condición para la venta del material, es decir que el vidrio puede entregarse completo; sin embargo, se recomienda al proveedor efectuar la rotura, puesto que disminuye volumen en el transporte.
 
             li
               .lista-ol--cuadro__vineta(style="background-color: #feb12e")
-                span C
+                span(style="color:#243943").fw-bold C
               | Almacenar: durante el almacenamiento, no mezclar las calidades de limpio y sucio, ni los diferentes tipos de colores. 
-    figcaption.d-inline-block.mb-5 Nota. ANDI (2017). Calidades de materiales para reciclaje. p.23
     p.mb-5(data-aos='fade-right') #[b Analice la siguiente tabla en la que se presentan los tipos de vidrio:]
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
-      span Tipos de vidrio
+      br
+      span.fst-italic Tipos de vidrio
     .row.justify-content-center.mb-5
-      .col-lg-8
-        img(src='@/assets/curso/temas/2/tb.svg', alt='')
-        figcaption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.23
+      .col-lg-10
+        .tabla-a.color-acento-botones.mb-5
+          table
+            caption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.23
+            thead(style="border-top: 0")
+              tr
+                th(colspan='3' style="background-color: #badc6d") VIDRIO POSCONSUMO COMERCIALIZABLE 
+            tbody.text-center
+              tr(style="background-color: #e2eacd ").fw-bold
+                td TIPO DE VIDRIO POSCONSUMO COMERCIALIZABLE
+                td DESCRIPCIÓN
+                td CONTAMINANTES DEL PROCESO
+              tr
+                td Vidrio envase ámba
+                td Se compra completo o roto. No debe mezclarse con otros colores ni con vidrio plano. El vidrio de refractarias o cafeteras no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
+                td(rowspan="5") Material ferroso (magnético): puntillas, tapas, clavos, varillas, limadura de hierro, alambre o cualquier elemento magnético. 
+                  br
+                  br
+                  |Material no ferroso (no magnético): principalmente el aluminio, en cualquier presentación, cobre, zinc, estaño, plomo. 
+                  br
+                  br
+                  |Vidrios especiales: espejos, vidrio laminado (automóviles), bombillos, fardas, tubos fluorescentes, vidrio de ampolletas. 
+                  br
+                  br
+                  |Material inorgánico: piedras de cualquier tipo, gravilla, arena, cemento, concreto, cerámica, vidrio refractario o de refractarias. 
+                  br
+                  br
+                  |Materiales orgánicos: trapos, papel, cartón, madera, plástico (bolsas, pitillos), caucho, tierra, jeringas.
+              tr(style="background-color: #f6f6f6") 
+                td Vidrio envase verde
+                td Se compra completo o roto. No debe mezclarse con otros colores ni con vidrio plano.
+              tr 
+                td Vidrio envase transparente (blanco)
+                td Se compra completo o roto. No debe mezclarse con otros colores ni con vidrio plano.
+              tr(style="background-color: #f6f6f6") 
+                td Vidrio plano transparente
+                td Se compra completo o roto. No debe mezclarse con otros colores ni con envases. El espejo no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
+              tr 
+                td Vidrio plano bronce
+                td Se compra completo o roto. No debe mezclarse con otros colores ni con envases. El espejo no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
     p Para profundizar en factores alusivos al vidrio y sus procesos de reciclaje, observe con atención los videos que se le proponen a continuación:
     .row.justify-content-center.mb-3
       .col-lg-9
@@ -459,9 +492,10 @@
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.5  Metal
     .card-tema.p-4.mb-5(style="background-color: #d3ede5")
-      img.d-lg-block.d-none(src='@/assets/curso/temas/2/27.png', alt='' style="width: 185px; left: 10%")
+      img.card-1.d-xl-block.d-none(src='@/assets/curso/temas/2/27.png', alt='' style="width: 185px; left: 10%")
       .row.justify-content-center.align-items-center
-        .col-lg-4
+        .col-lg-4.col-8
+          img.d-xl-none.d-block(src='@/assets/curso/temas/2/27.png', alt='' style="width: 185px").m-auto
         .col-lg-8
           p.mb-0.p-2 El acero y la chatarra ferrosa son infinitamente reutilizables en la naturaleza, aunque se tienen unas mermas en su procesamiento. La producción de acero a partir del reciclaje de chatarra ferrosa es amigable y sostenible con el medio ambiente, porque disminuye el consumo de recursos naturales no renovables. El acero producido a partir del reciclaje y fundición de chatarra ferrosa queda en condición de acero nuevo cumpliendo con todas las características físico-mecánicas exigidas en las normas nacionales e internacionales para la fabricación de acero.
     .pt-lg-5.pt-0   
@@ -475,7 +509,7 @@
           h4.text-white.mb-0.mx-4 Reciclaje del metal
     p Requisitos que debe cumplir un residuo de metal para ser reciclado
     .row.justify-content-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-3
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -484,27 +518,27 @@
                 .tarjeta.rounded-pill.p-3.d-inline-block.p-2.bg-white.mb-4
                   h4.mb-0  Primer Grupo
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Recipientes cerrados y presurizados –Cilindros con válvulas, sistemas de refrigeración sin purgar.
+                  p.mb-0 Recipientes cerrados y presurizados –Cilindros con válvulas, sistemas de refrigeración sin purgar.
 
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Residuos peligrosos (sólidos, líquidos y plasma).
-                li
+                  p.mb-0 Residuos peligrosos (sólidos, líquidos y plasma).
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Canecas de pintura con residuo superior al 10 %.
-                li
+                  p.mb-0 Canecas de pintura con residuo superior al 10 %.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Pilas y baterías.
-                li
+                  p.mb-0 Pilas y baterías.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Cofres o cajas fuertes rellenos de concreto.
-                li
+                  p.mb-0 Cofres o cajas fuertes rellenos de concreto.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Filtros de aceite contaminados con aceite. Productos electrónicos.
+                  p.mb-0 Filtros de aceite contaminados con aceite. Productos electrónicos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/2/29.png')})`}")
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-3
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -513,34 +547,34 @@
                 div.rounded-pill.p-3.d-inline-block.bg-white.mb-4
                   h4.mb-0 Segundo Grupo
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Metales pesados (plomo, cadmio, etc.).
+                  p.mb-0 Metales pesados (plomo, cadmio, etc.).
                   br  
                   |Amortiguadores sellados y similares.
 
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Transformadores y capacitores con askarel.
+                  p.mb-0 Transformadores y capacitores con askarel.
 
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Dispositivos con contenido de mercurio.
-                li
+                  p.mb-0 Dispositivos con contenido de mercurio.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Materiales con radiactividad.
-                li
+                  p.mb-0 Materiales con radiactividad.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Acero inoxidable.
-                li
+                  p.mb-0 Acero inoxidable.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Rotores de motores eléctricos y que contengan cobre.
-                li
+                  p.mb-0 Rotores de motores eléctricos y que contengan cobre.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Cemento, tierra, concreto, ladrillos y otros similares.
-                li
+                  p.mb-0 Cemento, tierra, concreto, ladrillos y otros similares.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Chatarra con elementos químicos.
+                  p.mb-0 Chatarra con elementos químicos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/2/30.png')})`}")
       .col-lg-4
         .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
@@ -551,28 +585,28 @@
                 div.rounded-pill.d-inline-block.p-3.bg-white.mb-4
                   h4.mb-0 Tercer Grupo
               ul.lista-ul--color
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Piezas y partes con asbesto.
+                  p.mb-0 Piezas y partes con asbesto.
 
-                li
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Chatarra con gomas, cauchos, asfalto y otros polímeros.
-                li
+                  p.mb-0 Chatarra con gomas, cauchos, asfalto y otros polímeros.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Calamina, cascarilla y otros derivados de oxidaciones e impurezas y degradaciones del acero.
-                li
+                  p.mb-0 Calamina, cascarilla y otros derivados de oxidaciones e impurezas y degradaciones del acero.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Residuales de los procesos de corte y soldadura.
-                li
+                  p.mb-0 Residuales de los procesos de corte y soldadura.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Cuerpos moledores de la industria cementera y cerámica, con alto contenido de cromo y manganeso.
-                li
+                  p.mb-0 Cuerpos moledores de la industria cementera y cerámica, con alto contenido de cromo y manganeso.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Aleaciones de aceros de alta resistencia, como brocas con tungsteno, cromo-vanadio.
-                li
+                  p.mb-0 Aleaciones de aceros de alta resistencia, como brocas con tungsteno, cromo-vanadio.
+                li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
-                  | Otros considerados peligrosos o no aptos.
+                  p.mb-0 Otros considerados peligrosos o no aptos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/2/31.png')})`}")
 
     p.mb-5(data-aos='fade-right') Hay que mencionar, además, que existen condiciones preestablecidas, bajo las cuales serán, o no, aceptados algunos materiales. #[b Se podrá recibir chatarra derivada de los siguientes orígenes o condiciones, si cumplen los requisitos descritos a continuación:]
@@ -587,9 +621,9 @@
               p Se recibe mediante la presentación de declaración escrita de organismo militar competente informando que la chatarra se encuentra completamente desactivada y no presenta peligro, pudiendo ser manejada, cizallada, prensada o fundida.
             div(titulo="Tubería petrolera de cañoneo:")
               p La tubería petrolera de cañoneo debe venir sin los estopines y sin el ducto interior donde vienen las cargas explosivas.
-      .col-lg-6: img(src='@/assets/curso/temas/2/32.png', alt='')
+      .col-lg-6: img.d-lg-block.d-none(src='@/assets/curso/temas/2/32.png', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-6: img(src='@/assets/curso/temas/2/33.png', alt='')
+      .col-lg-6: img.d-lg-block.d-none(src='@/assets/curso/temas/2/33.png', alt='')
       .col-lg-6
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             div(titulo="Cilindros de gases:")
@@ -651,7 +685,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-9.mb-3.mb-sm-0
-                  p.text-small En el Anexo_4_Tabla6_ClasificaciónRCD, podrá enterarse de cuáles son los residuos producidos en el desarrollo de una obra. ¡Adelante!
+                  h4 Clasificación de los RCD
+                  p.text-small Lo invitamos a profundizar en la temática relacionada con la clasificación de los residuos de construcción y demolición para las etapas constructivas.
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
                     span Descargar 
@@ -662,8 +697,122 @@
       br
       span.fst-italic Alternativas de gestión de uso de los residuos
     .row.justify-content-center.mb-3
-      .col-lg-8: img(src='@/assets/curso/temas/2/tb2.svg', alt='')
-    figcaption.mb-5 Nota. Alcaldía Mayor de Bogotá (2014). Guía para la elaboración del Plan de Gestión Integral de Residuos de Construcción y Demolición (RCD) en obra. p,28
+      .col-lg-10
+        .tabla-a.color-acento-botones.mb-5
+          table
+            caption Nota. Alcaldía Mayor de Bogotá (2014). Guía para la elaboración del Plan de Gestión Integral de Residuos de Construcción y Demolición (RCD) en obra. p,28
+            thead(style="border-top: 0")
+            tbody.text-center
+              tr(style="background-color: #e2eacd ").fw-bold
+                td RESIDUO
+                td ALTERNATIVA DE USO
+              tr
+                td CONCRETOS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como masa para rellenos
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como suelos en carreteras
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como grava suelta
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar para producción de morteros y cemento
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como granulado
+              tr
+                td CERÁMICOS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como adoquín
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como fachadas
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar para acabados
+              tr
+                td ASFALTO
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como masa para rellenos
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como asfalto
+              tr
+                td METALES
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar para aplicación en otros productos
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como aleación
+              tr
+                td MADERA
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar para casetones, vallados y linderos
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar para tableros y aglomerados
+              tr
+                td VIDRIO
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclaje para vidrio
+              tr
+                td PÉTREOS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como áridos finos y gruesos
+              tr
+                td PLÁSTICOS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como plásticos
+              tr
+                td TEJAS, BLOQUES, ENTRE OTROS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reciclar como base para nuevos productos
+              tr
+                td TIERRA DE EXCAVACIÓN
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como relleno y recuperación de salud
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Estabilización de suelos
+              tr
+                td ELEMENTOS ARQUITECTÓNICOS
+                td
+                  ul.lista-ul--color
+                    li.d-flex
+                      i.fas.fa-check(style="color: #fdaf3e")
+                      p.mb-0 Reutilizar como nuevos productos
     p.mb-5(data-aos='fade-right') Visualice estos dos videos para ampliar su saber respecto del reciclaje de desechos de construcción:
     .row.justify-content-center.mb-3
       .col-lg-9
@@ -719,7 +868,6 @@
         .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/37.png', alt='')
         .col-lg-9 
           p Las demás categorías corresponden a los otros tipos de aparatos eléctricos y electrónicos que pueden ser usados tanto en el hogar como en las empresas, el comercio o en las instituciones, como los aparatos de alumbrado, las herramientas eléctricas y electrónicas (con excepción de las herramientas industriales fijas de gran envergadura), los juguetes o equipos deportivos y de ocio, los aparatos médicos (con excepción de todos los productos implantados e infectados), los instrumentos de vigilancia y control y las máquinas expendedoras de productos y dinero.
-          figcaption Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos p.25.
     .bg-2.p-5.mb-5
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Sustancias peligrosas
@@ -798,7 +946,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-10.mb-3.mb-sm-0
-                  p Para estudiar todos los aspectos teóricos y conceptuales relativos al manejo y administración de residuos sólidos orgánicos, diríjase al #[b Anexo_6_ResiduosOrganicosMetodosAprovechamiento]
+                  h4 Métodos de aprovechamiento de residuos orgánicos no peligrosos
+                  p Lo invitamos a profundizar en los aspectos teóricos y conceptuales relativos al manejo y administración de residuos sólidos orgánicos no peligrosos
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=PwJgk1uAzxA" target="_blank" type="application/pdf")
                     span Descargar
