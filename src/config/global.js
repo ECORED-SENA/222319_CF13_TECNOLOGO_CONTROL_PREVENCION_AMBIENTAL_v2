@@ -61,7 +61,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: '<em>Tetra Pak</em>',
+            titulo: 'Tetra Pak',
             hash: 't_2_3',
           },
           {

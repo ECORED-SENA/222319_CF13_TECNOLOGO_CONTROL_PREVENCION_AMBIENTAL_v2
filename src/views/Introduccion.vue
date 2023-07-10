@@ -23,8 +23,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-10.mb-3.mb-sm-0
-                  h4.mb-1 Sonsón Televisión oficial. (2018). Inadecuada disposición de residuos sólidos [Video]. YouTube.
-                  p.text-small https://www.youtube.com/watch?v=P9nY_4VIusE
+                  h4.mb-1 Inadecuada disposición de residuos sólidos
+                  p.text-small Lo invitamos a consultar el siguiente video donde se exponen las acciones que la autoridad ambiental  ha venido tomando ante la inadecuada disposición de residuos sólidos en una vivienda de la zona urbana del municipio.
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=P9nY_4VIusE" target="_blank" type="application/pdf")
                     span Ver video 
@@ -38,8 +38,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-10.mb-3.mb-sm-0
-                  h4.mb-1 Senado Colombia. (2017). Alerta sanitaria y ambiental en rellenos sanitarios del país [Video]. YouTube.
-                  p.text-small https://www.youtube.com/watch?v=k8BouGzKtqA
+                  h4.mb-1 Alerta sanitaria y ambiental en rellenos sanitarios del país
+                  p.text-small Lo invitamos a consultar el siguiente video del noticiero del Senado de Colombia donde se expone la crisis sanitaria y ambiental presente en los rellenos sanitarios del país durante el año 2017.
                 .col.mb-3.mb-sm-0
                   a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=k8BouGzKtqA" target="_blank" type="application/pdf")
                     span Ver video 
