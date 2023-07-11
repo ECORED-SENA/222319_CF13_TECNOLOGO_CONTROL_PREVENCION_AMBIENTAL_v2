@@ -201,154 +201,152 @@ export default {
     {
       tema: 'Introducción ',
       referencia:
-        'Sonsón Televisión Oficial. (2018). <em>Inadecuada disposición de residuos sólidos</em> [Video]. YouTube.',
+        'Sonsón Televisión Oficial. (2018). <em>Inadecuada disposición de residuos sólidos</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=P9nY_4VIusE',
     },
     {
       tema: 'Introducción ',
       referencia:
-        'Senado Colombia. (2017). <em>Alerta sanitaria y ambiental en rellenos sanitarios del país.</em> [Video]. YouTube.',
+        'Senado Colombia. (2017). <em>Alerta sanitaria y ambiental en rellenos sanitarios del país.</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=k8BouGzKtqA ',
     },
     {
-      tema: '2.1 Papel y cartón ',
+      tema: 'Papel y cartón ',
       referencia:
-        'Osorio, E. (2018). <em>Cómo se hace el papel reciclado</em> [Video]. YouTube.',
+        'Osorio, E. (2018). <em>Cómo se hace el papel reciclado</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=V4cRf5Nas_k ',
     },
     {
-      tema: '2.1 Papel y cartón ',
+      tema: 'Papel y cartón ',
       referencia:
-        'KimberlyClarkPeru. (2011). <em>Proceso del reciclaje de papel</em> [Video]. YouTube.',
+        'KimberlyClarkPeru. (2011). <em>Proceso del reciclaje de papel</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=6kRtsPABg4A ',
     },
     {
-      tema: '2.2 Plásticos ',
+      tema: 'Plásticos ',
       referencia:
-        'Fomentar aprovechamiento de residuos sólidos. (2017). <em> Reciclaje del plástico y proceso de producción</em> [Video]. YouTube.',
+        'Fomentar aprovechamiento de residuos sólidos. (2017). <em> Reciclaje del plástico y proceso de producción</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=sSgsT7D5fVY ',
     },
     {
-      tema: '2.2 Plásticos ',
+      tema: 'Plásticos ',
       referencia:
-        'The Coca-Cola Co. (2018). <em>El paso a paso en el reciclaje de una botella pet</em> [Video]. YouTube.',
+        'The Coca-Cola Co. (2018). <em>El paso a paso en el reciclaje de una botella pet</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=eDD9sO8SkOY ',
     },
     {
-      tema: '2.3 Tetra Pak ',
+      tema: 'Tetra Pak ',
       referencia:
-        'Luis Carlo P. (2014). <em>Tetrapak. Separación del aluminio y el plástico. Problema resuelto</em> [Video]. YouTube.',
+        'Luis Carlo P. (2014). <em>Tetrapak. Separación del aluminio y el plástico. Problema resuelto</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=bXOyzkA0a4U ',
     },
     {
-      tema: '2.4 Vidrio ',
+      tema: 'Vidrio ',
       referencia:
-        'Socyaoficial. (2015). <em>Te invitamos a conocer cómo funciona la Planta de Reciclaje de Vidrio</em> [Video]. YouTube.',
+        'Socyaoficial. (2015). <em>Te invitamos a conocer cómo funciona la Planta de Reciclaje de Vidrio</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=QnvrGBHh2XE ',
     },
     {
-      tema: '2.4 Vidrio ',
-      referencia:
-        'Telemadrid. (2011). <em>Así se recicla el vidrio</em> [Video]. YouTube.',
+      tema: 'Vidrio ',
+      referencia: 'Telemadrid. (2011). <em>Así se recicla el vidrio</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=rGAKfGJqheg ',
     },
     {
-      tema: '2.5 Metal ',
-      referencia:
-        'Tecmany Domotica. (2013). <em>Reciclaje de metales</em> [Video]. YouTube.',
+      tema: 'Metal ',
+      referencia: 'Tecmany Domotica. (2013). <em>Reciclaje de metales</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=YFuh7cIvmyE ',
     },
     {
-      tema: '2.6 Residuos de construcción y demolición ',
+      tema: ' Residuos de construcción y demolición ',
       referencia:
-        'Unoreciclaje. (2017). <em>Planta reciclaje para residuos de madera, RCD y RSI</em> [Video]. YouTube.',
+        'Unoreciclaje. (2017). <em>Planta reciclaje para residuos de madera, RCD y RSI</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=kmY7FGBXzEU ',
     },
     {
-      tema: '2.6 Residuos de construcción y demolición ',
+      tema: 'Residuos de construcción y demolición ',
       referencia:
-        'Noticias Caracol. (2019). <em>¿Cómo se hace el reciclaje de desechos de construcción y llantas?</em> [Video]. YouTube.',
+        'Noticias Caracol. (2019). <em>¿Cómo se hace el reciclaje de desechos de construcción y llantas?</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Y0wYrrdN48Q ',
     },
     {
       tema:
-        '2.7 Residuos Aparatos eléctricos, electrónicos y de telecomunicaciones ',
+        'Residuos Aparatos eléctricos, electrónicos y de telecomunicaciones ',
       referencia:
-        'Unoreciclaje. (2015). <em>Planta de reciclado de R.A.E.E</em> [Video]. YouTube.',
+        'Unoreciclaje. (2015). <em>Planta de reciclado de R.A.E.E</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5upwOp_73yw ',
     },
     {
       tema:
-        '2.7 Residuos Aparatos eléctricos, electrónicos y de telecomunicaciones ',
+        'Residuos Aparatos eléctricos, electrónicos y de telecomunicaciones ',
       referencia:
-        'Twenergy. (2015). <em>El reciclaje de materiales electrónicos</em> [Video]. YouTube.',
+        'Twenergy. (2015). <em>El reciclaje de materiales electrónicos</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=PwJgk1uAzxA ',
     },
     {
-      tema: '2.8 Residuos orgánicos ',
+      tema: 'Residuos orgánicos ',
       referencia:
-        'TvAgro. (2018). <em>Cómo las plantas de compostaje hacen abonos orgánicos-TvAgro por Juan Gonzalo Angel</em> [Video]. YouTube.',
+        'TvAgro. (2018). <em>Cómo las plantas de compostaje hacen abonos orgánicos-TvAgro por Juan Gonzalo Angel</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1mlNYly0KXw ',
     },
     {
-      tema: '2.8 Residuos orgánicos ',
+      tema: 'Residuos orgánicos ',
       referencia:
-        'Cableplus Televisión Guarne. (2015). <em>Planta de tratamiento de residuos orgánicos- E.S.P Guarne 2015</em> [Video]. YouTube.',
+        'Cableplus Televisión Guarne. (2015). <em>Planta de tratamiento de residuos orgánicos- E.S.P Guarne 2015</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=dTq4EmmeJoc ',
     },
     {
-      tema: '5. Economía circular ',
+      tema: 'Economía circular ',
       referencia:
-        'COTEC. (2017). <em>Economía circular: descubre lo que es antes de que reviente el planeta</em> [Video]. YouTube.',
+        'COTEC. (2017). <em>Economía circular: descubre lo que es antes de que reviente el planeta</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Lc4-2cVKxp0&feature=youtu.b',
     },
     {
-      tema: '1. Conceptos generales ',
+      tema: 'Conceptos generales ',
       referencia:
         'ICONTEC. (2006). <em>Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos orgánicos no peligrosos</em>  (GTC 53-7).  ',
       tipo: 'Guia',
       link: 'http://biblioteca.sena.edu.co/ ',
     },
     {
-      tema: '2.1 Papel y cartón ',
+      tema: 'Papel y cartón ',
       referencia:
         'ICONTEC. (2003). <em>Gestión Ambiental residuos sólidos – Guía para el reciclaje de papel y cartón</em> (GTC 53-4). ',
       tipo: 'Guia',
       link: 'http://biblioteca.sena.edu.co/ ',
     },
     {
-      tema: '2.2 Plásticos ',
+      tema: 'Plásticos ',
       referencia:
         'ICONTEC. (2004a). <em>Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos plásticos</em> (GTC 53-2). ',
       tipo: 'Guia',
       link: 'http://biblioteca.sena.edu.co/ ',
     },
     {
-      tema: '2.4 Vidrio ',
+      tema: 'Vidrio ',
       referencia:
         'ICONTEC. (2004b). <em>Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de envases de vidrio</em> (GTC 53-3). ',
       tipo: 'Guia',
       link: 'http://biblioteca.sena.edu.co/ ',
     },
     {
-      tema: '2.5 Metal ',
+      tema: 'Metal ',
       referencia:
         'ICONTEC (2004c). <em>Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos metálicos</em> (GTC 53-5). ',
       tipo: 'Guia',
@@ -456,12 +454,12 @@ export default {
       link:
         'http://www.residuoselectronicos.net/wp-content/uploads/2017/07/Pol%C3%ADtica-de-RAEE-31-05-2017-Versi%C3%B3n-Publicaci%C3%B3n.pdf',
     },
-    {
-      referencia:
-        'Ministerio de Medio Ambiente. (2004). Manual Básico para hacer Compost. Proyecto Piloto de Compostaje Doméstico.',
-      link:
-        'http://www.factoria3.com/documentos/Manual%20basico%20para%20hacer%20Compost.pdf  ',
-    },
+    // {
+    //   referencia:
+    //     'Ministerio de Medio Ambiente. (2004). Manual Básico para hacer Compost. Proyecto Piloto de Compostaje Doméstico.',
+    //   link:
+    //     'http://www.factoria3.com/documentos/Manual%20basico%20para%20hacer%20Compost.pdf  ',
+    // },
     {
       referencia:
         'Ministerio de Medio Ambiente y Medio Rural y Marino. (2009). Manual de compostaje. ',
@@ -489,9 +487,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura',
         },
       ],
     },
@@ -499,9 +498,47 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Diana Carolina Triana Guarnizo',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Distrito Capital ',
+        },
+        {
+          nombre: 'Juan Carlos Cárdenas Sánchez',
+          cargo: 'Instructor',
+          centro: 'Centro de Gestión Industrial - Distrito Capital',
+        },
+        {
+          nombre: 'Gloria Esperanza Ortiz Russi',
+          cargo: 'Evaluadora y diseñadora instruccional',
+          centro: 'Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión industrial - Distrito Capital',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Metodóloga',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -521,24 +558,32 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: '',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Gabriel Urueta',
+          cargo: 'Actividad Didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
+        // {
+        //   nombre: '',
+        //   cargo: 'Animador y Producción audiovisual',
+        //   centro: 'Nombre centro de formación',
+        // },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Luis Gabriel Urueta ',
+          cargo: 'Validación Contenido ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Daniel Mutis',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

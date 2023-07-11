@@ -8,14 +8,14 @@
       h1  Aprovechamiento y tratamiento de los residuos sólidos no peligrosos
     p.mb-5(data-aos='fade-right') El proceso de aprovechamiento de residuos sólidos no peligrosos se genera, principalmente, con papel, cartón, vidrio, metal, plástico.  
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.mb-4(style="background-color: #eef6d7 ").h-100
           p.mb-0  #[b Tal proceso de aprovechamiento se da cuando los materiales sobrantes o descartados de cualquier proceso productivo son restituidos o acondicionados para nuevos servicios] que, además, son favorables al ambiente. Por lo general, el aprovechamiento de los residuos se da mediante la reutilización y el reciclaje.
-      .col-lg-6: img(src='@/assets/curso/temas/2/1.png', alt='')
+      .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/2/1.png', alt='')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Papel y cartón
-    .card-tema.p-4.mb-5(style="background-color: #fff9e5")
+    .card-tema.p-4.mb-5(style="background-color: #fff9e5")(data-aos="zoom-in")
       img.card-1.d-xl-block.d-none(src='@/assets/curso/temas/2/2.png', alt='')
       .row.justify-content-center.align-items-center
         .col-lg-4.col-6
@@ -24,7 +24,7 @@
           p.mb-0.p-2 El papel y el cartón son productos que se requieren para comunicación de información, trasmisión de conocimiento y cultura, empacar, transportar, y un sinnúmero de actividades de la vida diaria. En Colombia, el papel es producido a partir de fibras de celulosa obtenidas del bagazo de la caña de azúcar - residuo resultado de un proceso agroindustrial - o de madera proveniente de plantaciones forestales certificadas de pino y eucalipto, que son cosechadas y renovadas con fines comerciales, tal como se hace con otros cultivos agrícolas. Estas dos fuentes de celulosa tienen la gran ventaja de provenir de un recurso renovable, que también es reciclable y biodegradable.
     p.mb-5(data-aos='fade-right') #[b En relación con el reciclaje de papel y cartón, tenga en cuanta algunos aspectos clave, como los que se mencionan enseguida:]
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="zoom-in")
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Vida útil y nueva vida").justify-content-center
             .col-md-7.mb-4.mb-md-0
@@ -61,6 +61,29 @@
             .col-md-5.col-6
               figure.mb-3
                 img.m-auto(src='@/assets/curso/temas/2/7.png', alt='Texto que describa la imagen')
+        .tarjeta.p-5(style="background-color: #dee9f0 ")(data-aos="zoom-in")
+          .row.justify-content-center.align-items-center.mb-5
+            .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+            .col-lg-11
+              p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+          a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_1_Tabla1_CategoriaDeReciclajePapelCarton.pdf')" target="_blank")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg" style="width: 50px")
+              .anexo__texto
+                p #[b Anexo.] Categoria de reciclaje de papel y cartón 
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=V4cRf5Nas_k" target="_blank" type="application/pdf")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Cómo se hace el papel reciclado.
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=6kRtsPABg4A" target="_blank" type="application/pdf")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Proceso de reciclaje de papel.
     ModalA(:abrir-modal.sync="modal1")
       .tarjeta.bg-white.p-1
         .titulo-sexto.color-secundario(data-aos='fade-right')
@@ -71,65 +94,20 @@
           .col-lg-8
             img(src='@/assets/curso/temas/2/8.svg', alt='')
         figcaption.d-inline-block Nota. ANDI (2017) Calidades de materiales para reciclaje. p.7. 
-    .row.justify-content-center.mb-3
-      .col-lg-9 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/2/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 
-                  p.text-small Anexo_1_Tabla1_CategoriaDeReciclajePapelCarton
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=P9nY_4VIusE" target="_blank" type="application/pdf")
-                    span Descargar 
-                    i.fas.fa-file
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.p-3(style="background-color: #ffefd5")
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Edar Osorio (2018, 12 abril) Cómo se hace el papel reciclado.
-                  p.text-small https://www.youtube.com/watch?v=V4cRf5Nas_k
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=V4cRf5Nas_k" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 KimberlyClarkPeru (2011, 22 agosto) Proceso de reciclaje de papel.
-                  p.text-small https://www.youtube.com/watch?v=6kRtsPABg4A
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=6kRtsPABg4A" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Plásticos 
-    .cajon-b.color-acento-contenido.p-3.mb-5
+    .cajon-b.color-acento-contenido.p-3.mb-5(data-aos="zoom-in")
       p.mb-0 El plástico es un material sólido sintético, llamado polímero, que puede ser moldeado mediante calor y/o presión y cuyo componente principal es el carbono. Hay una gran variedad de clases de plástico, dependiendo de su composición, y este factor es fundamental cuando se lleva a cabo el reciclaje de plástico. Los plásticos se clasifican en tres grupos, según la disposición de las macromoléculas que los constituyen.
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta-avatar
             img(src='@/assets/curso/temas/2/9.png' alt='AvatarTop' style='width: 300px')
             .tarjeta.w-100(style="background-color: #ecf7f4")
               .p-4
                 h5.text-center Termoplásticos
                 p Es un plástico que, a temperatura ambiente, es plástico o deformable, se convierte en un líquido cuando se calienta y se endurece en un estado vítreo cuando se enfría suficiente.
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-left")
         .tarjeta-avatar
             img(src='@/assets/curso/temas/2/10.png' alt='AvatarTop' style='width: 300px')
             .tarjeta.w-100(style="background-color: #fdf8e4")
@@ -137,17 +115,17 @@
                 h5.text-center Termoestables
                 p Son materiales que, una vez que han sufrido el proceso de calentamiento-fusión y formación-solidificación, se convierten en materiales rígidos que no vuelven a fundirse. 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta-avatar
             img(src='@/assets/curso/temas/2/11.png' alt='AvatarTop' style='width: 300px')
             .tarjeta.w-100(style="background-color: #fdf8e4")
               .p-4
                 h5.text-center Elastómeros
                 p Se caracterizan por su gran elasticidad y capacidad de estiramiento y rebote, recuperando su forma original una vez que se retira la fuerza que los deformaba.
-      .col-lg-6: img(src='@/assets/curso/temas/2/12.svg', alt='')
+      .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/2/12.svg', alt='')
     h4 Identificación
     p.mb-2(data-aos='fade-right') Por otra parte, se estableció un sistema de clasificación para facilitar la identificación de los plásticos, esto se reconoce al mirar la pieza de plástico: se encuentra el símbolo del reciclaje más un número. De esta manera, se facilita mucho el reciclaje del plástico, al identificar rápidamente y sin errores el tipo de polímero de que se trata.
-    div(style="background-color: #d6efff").p-5.mb-3
+    div(style="background-color: #d6efff").p-5.mb-3(data-aos="zoom-in")
       p.mb-5(data-aos='fade-right') #[b En relación directa con lo anteriormente dicho, los requisitos que debe cumplir un residuo plástico para ser reciclado son: ]
       .row.justify-content-center.mb-5.align-items-start
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/13.png', alt='')
@@ -187,62 +165,39 @@
               i.fas.fa-check(style='color: #feb12e')
               p.mb-0 Preferiblemente, no deben tener grasas u otros materiales viscosos.
     figcaption.d-inline-flex.mb-5 ANDI. (2017). Calidades de materiales para reciclaje. p.11. 
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        p.mb-5(data-aos='fade-right') Se le solicita ver el Anexo_2_Tabla2_TiposPolimeroPlasticos. Asimismo, y para mayor asimilación de los contenidos, visualice los videos que se proponen en los siguientes enlaces: 
-        .row.justify-content-center.mb-3
-      .col-lg-9 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/2/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 
-                  p.text-small Anexo_2_Tabla2_TiposPolimeroPlasticos
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=P9nY_4VIusE" target="_blank" type="application/pdf")
-                    span Descargar 
-                    i.fas.fa-file
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.p-3(style="background-color: #ffefd5")
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Fomentar aprovechamiento de residuos sólidos (2017,15 mayo) Reciclaje del plástico y proceso de producción.
-                  p.text-small https://www.youtube.com/watch?v=V4cRf5Nas_k
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=V4cRf5Nas_k" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 The Coca-Cola Co. (2018, 23 noviembre) El paso a paso en el reciclaje de una botella PET.
-                  p.text-small https://www.youtube.com/watch?v=6kRtsPABg4A
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=6kRtsPABg4A" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-8
+        .tarjeta.p-5(style="background-color: #dee9f0 ")
+              .row.justify-content-center.align-items-center.mb-5
+                .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+                .col-lg-11
+                  p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+              a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_2_Tabla2_TiposPolimeroPlasticos.pdf')" target="_blank")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg" style="width: 50px")
+                  .anexo__texto
+                    p #[b Anexo.] Tipos de polímeros de plástico 
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=sSgsT7D5fVY" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] Reciclaje del plástico y proceso de producción.
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=eDD9sO8SkOY" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] El paso a paso en el reciclaje de una botella PET.
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Tetra Pak
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/14.png', alt='')
-      .col-lg-7 
+      .col-lg-5.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/2/14.png', alt='')
+      .col-lg-7(data-aos="fade-left") 
         p El principal objetivo ambiental del Tetra Pak es minimizar los impactos ambientales de sus productos a lo largo de todo su ciclo de vida, haciendo un uso eficiente de recursos en el desarrollo y diseño de los mismos, en sus procesos de manufactura y en sus operaciones.
-    .mn(style="background-color: #ecf7f4").p-5.mb-5
+    .mn(style="background-color: #ecf7f4").p-5.mb-5(data-aos="zoom-in")
       p.mb-5 Conozca algunas generalidades que vale la pena tener en cuenta sobre el Tetra Pak en los procesos de reciclaje y medio ambiente: 
       TabsC.color-acento-contenido.mb-5
         .p-4.p-md-5(titulo="Materias primas renovables" style="background-color: #d3ede5 ")
@@ -264,9 +219,9 @@
                   p Es importante que las fuentes de material de las bodegas, principalmente las de origen doméstico, comercial e institucional, que consumen los envases de #[b Tetra Pak], realicen tres sencillos pasos antes de desecharlos en el contenedor de residuos reciclables: enjuagar, escurrir y aplanar. Únicamente cuando algún operador o bodega maneje material posindustrial que ha tenido contacto con productos (leches y jugos) en algún cliente industrial (por ejemplo, Colanta, Alpina, Incolacteos, Parmalat, Postobón, etc.), es necesario lavarlo con abundante agua, debido al alto contenido de líquido. No es necesario separar los envases por tipo, esto quiere decir que se pueden mezclar envases de Tetra Pak de leche, jugos y licores sin problema. 
               .col-lg-4.col-8: img(src='@/assets/curso/temas/2/17.png', alt='')
     p.mb-5(data-aos='fade-right') En el siguiente recurso se muestran algunos requerimientos y necesidades del proceso de reciclaje del Tetra Pak. Se recomienda tomar nota atenta de los aspectos más importantes. ¡Adelante!
-    .tarjeta.rounded-pill.p-2.d-inline-block.p-2.color-primario.mb-4
+    .tarjeta.rounded-pill.p-2.d-inline-block.p-2.color-primario.mb-4(data-aos="fade-right")
           h4.text-white.mb-0.mx-4 Reciclaje del Tetra Pak
-    .bg-slyde.p-5.mb-5
+    .bg-slyde.p-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.align-items-center.justify-content-center
           .col-lg-8.mb-4.mb-md-0
@@ -375,14 +330,14 @@
     Separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.4 Vidrio
-    .bloque-derecha
+    .bloque-derecha(data-aos="zoom-in")
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/2/23.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 En Colombia, el mercado del reciclaje de vidrio inició en 1978, desde entonces la reinserción de este material a la cadena productiva ha disminuido el ingreso del mismo a rellenos sanitarios en el país. El vidrio es un material producto de la mezcla de algunos recursos naturales no tóxicos, como la arena, la caliza, la soda y el feldespato. Estos materiales permiten que su ciclo de vida sea perfecto. En el reciclaje está el comienzo y el final de cada envase de vidrio.
-    div(style="background-color: #f3f9ff ").p-5.mb-3
+    div(style="background-color: #f3f9ff ").p-5.mb-3(data-aos="zoom-in")
       p Sobre el vidrio en los procesos de reciclaje, ten presente:
       TabsA.color-acento-contenido.mb-5
         .tarjeta.tarjeta-azulc.p-4(titulo="Sostenibilidad")
@@ -417,7 +372,7 @@
       br
       span.fst-italic Tipos de vidrio
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         .tabla-a.color-acento-botones.mb-5
           table
             caption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.23
@@ -458,40 +413,29 @@
                 td Vidrio plano bronce
                 td Se compra completo o roto. No debe mezclarse con otros colores ni con envases. El espejo no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
     p Para profundizar en factores alusivos al vidrio y sus procesos de reciclaje, observe con atención los videos que se le proponen a continuación:
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Socyaoficial (2015, 25 agosto) Te invitamos a conocer cómo funciona la plata de reciclaje de vidrio
-                  p.text-small https://www.youtube.com/watch?v=QnvrGBHh2XE
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QnvrGBHh2XE" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Telemadrid (2011, 30 agosto) Así se recicla el vidrio
-                  p.text-small https://www.youtube.com/watch?v=rGAKfGJqheg
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="zoom-in")
+        .tarjeta.p-5(style="background-color: #dee9f0 ")
+              .row.justify-content-center.align-items-center.mb-5
+                .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+                .col-lg-11
+                  p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=QnvrGBHh2XE" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] Te invitamos a conocer cómo funciona la plata de reciclaje de vidrio.
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] Así se recicla el vidrio.
     Separador
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.5  Metal
-    .card-tema.p-4.mb-5(style="background-color: #d3ede5")
+    .card-tema.p-4.mb-5(style="background-color: #d3ede5")(data-aos="zoom-in")
       img.card-1.d-xl-block.d-none(src='@/assets/curso/temas/2/27.png', alt='' style="width: 185px; left: 10%")
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8
@@ -611,7 +555,7 @@
 
     p.mb-5(data-aos='fade-right') Hay que mencionar, además, que existen condiciones preestablecidas, bajo las cuales serán, o no, aceptados algunos materiales. #[b Se podrá recibir chatarra derivada de los siguientes orígenes o condiciones, si cumplen los requisitos descritos a continuación:]
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             div(titulo="Material ferroviario, rieles y tapas de alcantarilla:")
               p El proveedor siempre debe certificar su origen legal y el comprador responsable informará al patio su envío.
@@ -621,10 +565,10 @@
               p Se recibe mediante la presentación de declaración escrita de organismo militar competente informando que la chatarra se encuentra completamente desactivada y no presenta peligro, pudiendo ser manejada, cizallada, prensada o fundida.
             div(titulo="Tubería petrolera de cañoneo:")
               p La tubería petrolera de cañoneo debe venir sin los estopines y sin el ducto interior donde vienen las cargas explosivas.
-      .col-lg-6: img.d-lg-block.d-none(src='@/assets/curso/temas/2/32.png', alt='')
+      .col-lg-6(data-aos="fade-left"): img.d-lg-block.d-none(src='@/assets/curso/temas/2/32.png', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-6: img.d-lg-block.d-none(src='@/assets/curso/temas/2/33.png', alt='')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right"): img.d-lg-block.d-none(src='@/assets/curso/temas/2/33.png', alt='')
+      .col-lg-6(data-aos="fade-left")
         AcordionA.mb-5.acordion-icon(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             div(titulo="Cilindros de gases:")
               p Sólo serán aceptados si estuviesen despresurizados y sin válvulas.
@@ -634,41 +578,30 @@
               p Para material derivado de residuos biológicos u hospitalarios, como jeringas, instrumentación, etc, se debe tener certificado que ya fueron tratados y el riesgo fue eliminado para proceder con la fundición
             div(titulo="Material que requiere operación específica:")
               p Materiales de difícil descargue, extradimensionados o cuyo peso sea superior a 4 toneladas deberán ser comunicados con anticipación, para coordinar, o no, su recepción.
-    p.mb-5(data-aos='fade-right') Diríjase al Anexo_3_Tabla5_TiposDeMetales, y afiance su saber sobre el proceso de aprovechamiento y tratamiento de los residuos (metal). #[b Asimismo, observe atentamente el video que se encuentra en el siguiente enlace:]
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/2/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  p.text-small Anexo_3_Tabla5_TiposDeMetales
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Tecmany Domotica (2013, 7 julio) Reciclaje de metales
-                  p.text-small https://www.youtube.com/watch?v=YFuh7cIvmyE
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=YFuh7cIvmyE" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="zoom-in")
+        .tarjeta.p-5(style="background-color: #dee9f0 ")
+          .row.justify-content-center.align-items-center.mb-5
+            .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+            .col-lg-11
+              p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+          a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_3_Tabla5_TiposDeMetales.pdf')" target="_blank")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg" style="width: 50px")
+              .anexo__texto
+                p #[b Anexo.] Tipos de metales. 
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=YFuh7cIvmyE" target="_blank" type="application/pdf")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Reciclaje de metales.
     Separador 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.6 Residuos de construcción y demolición (RCD)
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="zoom-in")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/34.svg', alt='')
           .col-lg-10 
@@ -677,7 +610,7 @@
           p.mb-0  Por otro lado, el no aprovechamiento de estos residuos causa problemáticas ambientales, como la inadecuada disposición, la reducción de la vida útil de rellenos sanitarios y sitios de disposición final de RCD, e impactos negativos, como el cambio paisajístico, la contaminación de fuentes hídricas, la generación de material particulado, la compactación y cambio de uso de los suelos, la colmatación de los sistemas de captación de aguas lluvia, entre otros.
       .col-lg-4: img(src='@/assets/curso/temas/2/35.png', alt='')
     .row.justify-content-center.mb-5
-      .col-lg-9
+      .col-lg-9(data-aos="zoom-in")
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
@@ -688,7 +621,7 @@
                   h4 Clasificación de los RCD
                   p.text-small Lo invitamos a profundizar en la temática relacionada con la clasificación de los residuos de construcción y demolición para las etapas constructivas.
                 .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_4_Tabla6_ClasificaciónRCD.pdf')" target="_blank")
                     span Descargar 
                     i.fas.fa-file 
     p.mb-5(data-aos='fade-right') Habría que decir también que los diferentes residuos que se originan en la construcción y demolición de obras pueden ser aprovechados y otros no, por lo que sólo pueden ser llevados a un sitio de disposición final. A continuación, se muestran las alternativas de uso:
@@ -697,7 +630,7 @@
       br
       span.fst-italic Alternativas de gestión de uso de los residuos
     .row.justify-content-center.mb-3
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         .tabla-a.color-acento-botones.mb-5
           table
             caption Nota. Alcaldía Mayor de Bogotá (2014). Guía para la elaboración del Plan de Gestión Integral de Residuos de Construcción y Demolición (RCD) en obra. p,28
@@ -814,68 +747,57 @@
                       i.fas.fa-check(style="color: #fdaf3e")
                       p.mb-0 Reutilizar como nuevos productos
     p.mb-5(data-aos='fade-right') Visualice estos dos videos para ampliar su saber respecto del reciclaje de desechos de construcción:
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Unoreciclaje (2017 13 septiembre). Planta reciclaje para residuos de madera, RCD y RSI
-                  p.text-small https://www.youtube.com/watch?v=kmY7FGBXzEU
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=kmY7FGBXzEU" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Noticias Caracol (2019, 15 marzo). ¿Cómo se hace el reciclaje de desechos de construcción y llantas?
-                  p.text-small https://www.youtube.com/watch?v=rGAKfGJqheg
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=rGAKfGJqheg" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="zoom-in")
+        .tarjeta.p-5(style="background-color: #dee9f0 ")
+          .row.justify-content-center.align-items-center.mb-5
+            .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+            .col-lg-11
+              p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=V4cRf5Nas_k" target="_blank" type="application/pdf")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] ¿Cómo se hace el reciclaje de desechos de construcción y llantas?
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=Y0wYrrdN48Q" target="_blank" type="application/pdf")
+            .row.justify-content-around.align-items-center
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p #[b Video.] Proceso de reciclaje de papel.
     Separador
     #t_2_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.7 Residuos aparatos eléctricos, electrónicos y de telecomunicaciones (RAEE)
-    .bloque-derecha.mb-5
+    .bloque-derecha.mb-5(data-aos="zoom-in")
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image':`url(${require('@/assets/curso/temas/2/35.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
           p.mb-0 #[b Los RAEE son residuos de manejo diferenciado y se prohíbe su disposición final en rellenos sanitarios.] Deben ser recolectados y gestionados por los productores y se prioriza su aprovechamiento mediante empresas gestoras que cuenten con licencia ambiental para ello. Es decir, la normativa busca incentivar el aprovechamiento de los residuos de aparatos eléctricos y electrónicos desde una perspectiva económica y social, y promover la participación e integración de todos los actores involucrados en la elaboración de las estrategias, planes y proyectos que desarrollen la gestión integral de los RAEE, entre otros aspectos.
-    .bg-2.p-5.mb-5
+    .bg-2.p-5.mb-5(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Categorías de los RAEE
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/36.png', alt='')
         .col-lg-9 
           p Los grandes y pequeños electrodomésticos abarcan la línea blanca, mientras los equipos de informática y telecomunicaciones conforman la línea gris; y los aparatos electrónicos de consumo hacen parte de la línea marrón.
-    .bg-1.p-5.mb-5
+    .bg-1.p-5.mb-5(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Categorías alternas
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/37.png', alt='')
         .col-lg-9 
           p Las demás categorías corresponden a los otros tipos de aparatos eléctricos y electrónicos que pueden ser usados tanto en el hogar como en las empresas, el comercio o en las instituciones, como los aparatos de alumbrado, las herramientas eléctricas y electrónicas (con excepción de las herramientas industriales fijas de gran envergadura), los juguetes o equipos deportivos y de ocio, los aparatos médicos (con excepción de todos los productos implantados e infectados), los instrumentos de vigilancia y control y las máquinas expendedoras de productos y dinero.
-    .bg-2.p-5.mb-5
+    .bg-2.p-5.mb-5(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Sustancias peligrosas
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/38.png', alt='')
         .col-lg-9 
           p Asimismo, se han identificado las sustancias peligrosas que más comúnmente están presentes en los RAEE. Hay que tener en cuenta que los RAEE pueden o no ser peligrosos; si el RAEE es no peligroso, se debe considerar si es especial o reciclable o no aprovechable; y si es peligroso, la forma de saberlo es teniendo en cuenta su composición, como en la tabla siguiente.
-    .bg-1.p-5.mb-5
+    .bg-1.p-5.mb-5(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Según la ley
       .row.justify-content-center.mb-5
@@ -883,62 +805,42 @@
         .col-lg-9 
           p La Ley 1672 de 2013 le da el carácter de manejo diferenciado a los RAEE, prohíbe su disposición final en los rellenos sanitarios y los restringe a rellenos de seguridad, para que sean retomados por los productores de aparatos eléctricos y electrónicos, mediante sistemas de recolección y de gestión ambientalmente segura. Así, se busca que el consumidor devuelva los RAEE sin ningún costo.
           figcaption Minambiente (2017). Política Nacional integral de residuos de aparatos electrónicos p.25.
-    p.mb-5(data-aos='fade-right') Con el fin de profundizar y asimilar todos los aspectos relativos a los residuos RAEE, visite el Anexo_5_Tabla10_SustanciasPeligrosasRAEE. Asimismo, observe responsablemente los videos que se proponen en los siguientes enlaces: 
-    .row.justify-content-center.mb-3
-      .col-lg-9 
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/2/pdf.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 
-                  p.text-small Anexo_5_Tabla10_SustanciasPeligrosasRAEE
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=P9nY_4VIusE" target="_blank" type="application/pdf")
-                    span Descargar 
-                    i.fas.fa-file
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.p-3(style="background-color: #ffefd5")
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Unoreciclaje (2015, 5 noviembre). Planta de reciclado de R.A.E.E
-                  p.text-small https://www.youtube.com/watch?v=5upwOp_73yw
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=5upwOp_73yw" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
-    .row.justify-content-center.mb-3
-      .col-lg-9
-        .tarjeta.color-primario.p-3
-          .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/intro/icon.svg")
-            .col
-              .row.justify-content-between.align-items-center
-                .col-9.mb-3.mb-sm-0
-                  h4.mb-1 Twenergy (2015, 26 de marzo). El reciclaje de materiales electrónicos
-                  p.text-small https://www.youtube.com/watch?v=PwJgk1uAzxA
-                .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=PwJgk1uAzxA" target="_blank" type="application/pdf")
-                    span Ver video 
-                    i.fas.fa-video
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="zoom-in")
+        .tarjeta.p-5(style="background-color: #dee9f0 ")
+              .row.justify-content-center.align-items-center.mb-5
+                .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
+                .col-lg-11
+                  p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
+              a.anexo.mb-4(:href="obtenerLink('downloads/Anexo_5_Tabla10_SustanciasPeligrosasRAEE.pdf')" target="_blank")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg" style="width: 50px")
+                  .anexo__texto
+                    p #[b Anexo.] Sustancias peligrosas R.A.E.E
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=5upwOp_73yw" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] Planta de reciclado de R.A.E.E
+              a.anexo.mb-4(href="https://www.youtube.com/watch?v=PwJgk1uAzxA" target="_blank" type="application/pdf")
+                .row.justify-content-around.align-items-center
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p #[b Video.] El reciclaje de materiales electrónicos
+    
     Separador
     #t_2_8.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.8 Residuos orgánicos
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/40.png', alt='')
-      .col-lg-6 
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/2/40.png', alt='')
+      .col-lg-6(data-aos="fade-left")
         div(style="background-color: #f3f9ff ").p-4.h-100
           p.mb-0 #[b La mayor cantidad de residuos sólidos que se generan son orgánicos, por lo que esto representa una problemática por resolver.] De acuerdo con la GTC 53-7 (2006), existen diferentes estrategias alternativas de tratamiento de residuos orgánicos no peligrosos, las cuales consisten principalmente en la aplicación de procesos biológicos y/o bioquímicos, termoquímicos, físicos y/o fisicoquímicos.
     .row.justify-content-center.mb-3
-      .col-lg-10
+      .col-lg-10(data-aos="zoom-in")
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1

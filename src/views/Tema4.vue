@@ -7,15 +7,15 @@
         span 4
       h1  Riesgos en aprovechamiento y tratamiento de residuos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/4/1.svg', alt='')
-      .col-lg-10 
+      .col-lg-2.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/4/1.svg', alt='')
+      .col-lg-10(data-aos="fade-left")
         p El personal que labora en las empresas de aprovechamiento y tratamiento de residuos está propenso a varios riesgos, por ende, es importante el uso de elementos de protección personal y seguridad y salud en los ambientes de trabajo.
     .titulo-sexto.color-secundario(data-aos='fade-right')
       h5 Tabla 3
       br
       span.fst-italic Riesgos en la labor
     .row.justify-content-center.mb-5
-      .col-lg-8 
+      .col-lg-8(data-aos="zoom-in")
         .tabla-a
           table
             caption Nota. Adaptado de P+L (2017) Análisis de riesgo de la seguridad e higiene ocupacional durante el manejo de residuos sólidos y reciclaje de plástico de polietileno. p.66-68.
