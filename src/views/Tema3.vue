@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span 3
       h1 Aprovechamiento y tratamiento residuos peligrosos
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         .cajon-b.color-acento-contenido.p-3.mb-5
           p.mb-0 De acuerdo con el informe nacional de generación y manejo de residuos o desechos peligrosos Colombia 2014-2015 del Instituto de hidrología, meteorología y estudios ambientales (IDEAM) (2016), el aprovechamiento de los residuos peligrosos se entiende como toda actividad orientada a recuperar el valor remanente o el poder calorífico de los materiales que componen el residuo.
       .col-lg-4.col-6(data-aos="fade-left"): img.d-lg-block.d-none(src='@/assets/curso/temas/3/1.png', alt='')
     div(style="background-color: #dee9f0").p-4.mb-5(data-aos="zoom-in")
-      .row.justify-content-center.mb-5
+      .row.justify-content-center
         .col-lg-1.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/3/2.svg', alt='')
         .col-lg-11
           p Las recomendaciones dadas por el Área Metropolitana del Valle de Aburrá (2011), en la guía para la gestión de residuos peligrosos, manifiestan que, para seleccionar el tipo de aprovechamiento adecuado, se debe realizar un estudio previo a cada residuo, teniendo en cuenta características químicas como la familia, el estado de la materia, la cantidad, la frecuencia de generación, el transporte del material, el valor del servicio, entre otros aspectos. De este modo, se puede tomar la decisión de si el residuo es susceptible de aprovechamiento o si definitivamente ya no tiene uso y ha llegado al fin de su ciclo de vida, momento en el cual deberá gestionarse su disposición final.
