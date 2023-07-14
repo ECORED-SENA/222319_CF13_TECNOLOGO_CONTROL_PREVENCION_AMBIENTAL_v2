@@ -117,11 +117,18 @@
                 p Estado final de descomposición de la materia orgánica sólida por acción de microorganismos, cuya composición depende del sustrato y grado de descomposición.
         .row.justify-content-center.mb-5
           .col-lg-10
-            div(style="background-color: #faedc0").d-inline-flex.align-items-start
-              img(src='@/assets/curso/temas/1/icon.svg', alt='' style="width: 110px").me-5
-              .textos(style="width: 70%").p-4
-                h4 Registra en tu libreta personal de apuntes cada uno de estos conceptos y definiciones. Puedes profundizar en ellos consultando en:
-                p.text-small ICONTEC. (2006). Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos orgánicos no peligrosos (GTC53-7). p.2 
+            div(style="background-color: #faedc0")
+              .row.justify-content-center.mb-5
+                .col-lg-2.col-4: img.p-lg-0.p-4(src='@/assets/curso/temas/1/icon.svg', alt='' style="width: 110px").me-5
+                .col-lg-10
+                  .p-4.pb-0
+                    h4 Registra en tu libreta personal de apuntes cada uno de estos conceptos y definiciones. Puedes profundizar en ellos consultando en:
+                    p.text-small ICONTEC. (2006). Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos orgánicos no peligrosos (GTC53-7). p.2 
+                .col-lg-3.col-6.mb-3.mb-sm-0
+                  .p-4
+                    a.boton.color-acento-botones(href="https://tienda.icontec.org/gp-guia-para-el-aprovechamiento-de-residuos-solidos-organicos-no-peligrosos-gtc53-7-2006.html" target="_blank" type="application/pdf")
+                      span Ver enlace
+                      i.fas.fa-link
 
 </template>
 

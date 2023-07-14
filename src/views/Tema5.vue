@@ -15,7 +15,7 @@
       h5 Figura 11
       br
       span.fst-italic Economía lineal vs economía circular
-    img(src='@/assets/curso/temas/5/1.svg', alt='').mb-3
+    img(src='@/assets/curso/temas/5/1.svg', alt='Imagen que muestra dos esquemas de funcionamiento de la economía productiva, así: Economía lineal, que vincula acciones como adquirir recursos, producir con esos recursos y desechar basura. En contraposición está la Economía circular, que recircula, renueva y regenera tanto recursos como productos alcanzados en la producción.').mb-3
     figcaption.d-inline-block.mb-5 Nota. KE-LAB (2018). Qué es la economía circular
     p.mb-5(data-aos='fade-right') A continuación, profundice en algunos aspectos del orden operativo que refuerzan los principios de la economía circular:
     .row.justify-content-center.mb-5

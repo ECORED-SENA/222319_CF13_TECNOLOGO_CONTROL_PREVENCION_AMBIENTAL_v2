@@ -124,8 +124,8 @@
                 p Se caracterizan por su gran elasticidad y capacidad de estiramiento y rebote, recuperando su forma original una vez que se retira la fuerza que los deformaba.
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/2/12.svg', alt='')
     h4 Identificación
-    p.mb-2(data-aos='fade-right') Por otra parte, se estableció un sistema de clasificación para facilitar la identificación de los plásticos, esto se reconoce al mirar la pieza de plástico: se encuentra el símbolo del reciclaje más un número. De esta manera, se facilita mucho el reciclaje del plástico, al identificar rápidamente y sin errores el tipo de polímero de que se trata.
-    div(style="background-color: #d6efff").p-5.mb-3(data-aos="zoom-in")
+    p.mb-4(data-aos='fade-right') Por otra parte, se estableció un sistema de clasificación para facilitar la identificación de los plásticos, esto se reconoce al mirar la pieza de plástico: se encuentra el símbolo del reciclaje más un número. De esta manera, se facilita mucho el reciclaje del plástico, al identificar rápidamente y sin errores el tipo de polímero de que se trata.
+    div(style="background-color: #d6efff").p-5.mb-5(data-aos="zoom-in")
       p.mb-5(data-aos='fade-right') #[b En relación directa con lo anteriormente dicho, los requisitos que debe cumplir un residuo plástico para ser reciclado son: ]
       .row.justify-content-center.mb-5.align-items-start
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/13.png', alt='')
@@ -164,7 +164,6 @@
             li.d-flex
               i.fas.fa-check(style='color: #feb12e')
               p.mb-0 Preferiblemente, no deben tener grasas u otros materiales viscosos.
-    figcaption.d-inline-flex.mb-5 ANDI. (2017). Calidades de materiales para reciclaje. p.11. 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-8
         .tarjeta.p-5(style="background-color: #dee9f0 ")
@@ -446,15 +445,110 @@
       p #[b La mayoría de siderúrgicas colombianas son semiintegradas, lo que implica que su materia prima es la chatarra ferrosa.] La chatarra ferrosa se puede procesar, manipular, preparar y fundir, siempre y cuando no presente un riesgo para la salud de las personas, el medio ambiente o riesgo para los bienes e instalaciones.
     .row.justify-content-center.mb-5
       .col-lg-8
-        img(src='@/assets/curso/temas/2/28.svg', alt='').mb-3
+        img(src='@/assets/curso/temas/2/28.svg', alt='Esquema que enuncia los pasos o acciones para el manejo de chatarra, los cuales son: recepción de chatarra, clasificación de chatarra, procesamiento de chatarra, almacenamiento de chatarra, carga y descarga de chatarra.').mb-3
         figcaption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.27
     p.mb-5 #[b Conozca, en el siguiente recurso, los requisitos que exige el proceso de reciclaje del metal.s]
     .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Reciclaje del metal
     p Requisitos que debe cumplir un residuo de metal para ser reciclado
+    .tarjeta(style="background-color: #dee9f0 ").p-4.mb-4.d-lg-none.d-block
+      .row.justify-content-center
+        .col-8.mb-4: img(src='@/assets/curso/temas/2/a1.png', alt='')
+        .col-10
+          .d-flex.justify-content-start
+            .tarjeta.rounded-pill.p-3.d-inline-block.p-2.bg-white.mb-4
+              h4.mb-0  Primer Grupo
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Recipientes cerrados y presurizados –Cilindros con válvulas, sistemas de refrigeración sin purgar.
+
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Residuos peligrosos (sólidos, líquidos y plasma).
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Canecas de pintura con residuo superior al 10 %.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Pilas y baterías.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Cofres o cajas fuertes rellenos de concreto.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Filtros de aceite contaminados con aceite. Productos electrónicos.
+    .tarjeta(style="background-color: #dee9f0 ").p-4.mb-4.d-lg-none.d-block
+      .row.justify-content-center
+        .col-8.mb-4: img(src='@/assets/curso/temas/2/a2.png', alt='')
+        .col-10
+          .d-flex.justify-content-start
+            .tarjeta.rounded-pill.p-3.d-inline-block.p-2.bg-white.mb-4
+              h4.mb-0  Segundo Grupo
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Metales pesados (plomo, cadmio, etc.).
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Amortiguadores sellados y similares.
+
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Transformadores y capacitores con askarel.
+
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Dispositivos con contenido de mercurio.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Materiales con radiactividad.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Acero inoxidable.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Rotores de motores eléctricos y que contengan cobre.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Cemento, tierra, concreto, ladrillos y otros similares.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Chatarra con elementos químicos.
+    .tarjeta(style="background-color: #dee9f0 ").p-4.mb-4.d-lg-none.d-block
+      .row.justify-content-center
+        .col-8.mb-4: img(src='@/assets/curso/temas/2/a3.png', alt='')
+        .col-10
+          .d-flex.justify-content-start
+            .tarjeta.rounded-pill.p-3.d-inline-block.p-2.bg-white.mb-4
+              h4.mb-0  Tercer Grupo
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Piezas y partes con asbesto.
+
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Chatarra con gomas, cauchos, asfalto y otros polímeros.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Calamina, cascarilla y otros derivados de oxidaciones e impurezas y degradaciones del acero.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Residuales de los procesos de corte y soldadura.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Cuerpos moledores de la industria cementera y cerámica, con alto contenido de cromo y manganeso.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Aleaciones de aceros de alta resistencia, como brocas con tungsteno, cromo-vanadio.
+            li.d-flex
+              i.fas.fa-check(style="color: #feb12e")
+              p.mb-0 Otros considerados peligrosos o no aptos.
+
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
+        .tarjeta.tarjeta-slide.arriba.d-lg-block.d-none(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -483,7 +577,7 @@
                   p.mb-0 Filtros de aceite contaminados con aceite. Productos electrónicos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/2/29.png')})`}")
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
+        .tarjeta.tarjeta-slide.arriba.d-lg-block.d-none(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -494,8 +588,9 @@
                 li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
                   p.mb-0 Metales pesados (plomo, cadmio, etc.).
-                  br  
-                  |Amortiguadores sellados y similares.
+                li.d-flex
+                  i.fas.fa-check(style="color: #feb12e")
+                  p.mb-0 Amortiguadores sellados y similares.
 
                 li.d-flex
                   i.fas.fa-check(style="color: #feb12e")
@@ -521,7 +616,7 @@
                   p.mb-0 Chatarra con elementos químicos.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/2/30.png')})`}")
       .col-lg-4
-        .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
+        .tarjeta.tarjeta-slide.arriba.d-lg-block.d-none(@mouseover="indicadorTarjetaSlide = false" style="background-color: #dee9f0 " )
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5
@@ -851,7 +946,7 @@
                   h4 Métodos de aprovechamiento de residuos orgánicos no peligrosos
                   p Lo invitamos a profundizar en los aspectos teóricos y conceptuales relativos al manejo y administración de residuos sólidos orgánicos no peligrosos
                 .col.mb-3.mb-sm-0
-                  a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=PwJgk1uAzxA" target="_blank" type="application/pdf")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_6_ResiduosOrganicosMetodosAprovechamiento.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file
 

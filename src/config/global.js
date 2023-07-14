@@ -454,12 +454,11 @@ export default {
       link:
         'http://www.residuoselectronicos.net/wp-content/uploads/2017/07/Pol%C3%ADtica-de-RAEE-31-05-2017-Versi%C3%B3n-Publicaci%C3%B3n.pdf',
     },
-    // {
-    //   referencia:
-    //     'Ministerio de Medio Ambiente. (2004). Manual Básico para hacer Compost. Proyecto Piloto de Compostaje Doméstico.',
-    //   link:
-    //     'http://www.factoria3.com/documentos/Manual%20basico%20para%20hacer%20Compost.pdf  ',
-    // },
+    {
+      referencia:
+        'Ministerio de Medio Ambiente. (2004). Manual Básico para hacer Compost. Proyecto Piloto de Compostaje Doméstico.',
+      link: '',
+    },
     {
       referencia:
         'Ministerio de Medio Ambiente y Medio Rural y Marino. (2009). Manual de compostaje. ',
@@ -547,7 +546,7 @@ export default {
       autores: [
         {
           nombre: 'Carlos Julian Ramirez',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -575,13 +574,13 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta ',
-          cargo: 'Validación Contenido ',
+          cargo: 'Validador de Recursos Educativos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Daniel Mutis',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
