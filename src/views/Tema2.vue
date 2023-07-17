@@ -258,19 +258,14 @@
               li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
                 p.mb-0 Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
-              li.d-flex
-                i.fas.fa-check(style="color: #feb12e")
-                p.mb-0 Cuando ya estén armadas las pacas, se debe designar un lugar dentro de la bodega para almacenarlas.
-              li.d-flex
-                i.fas.fa-check(style="color: #feb12e")
-                p.mb-0 En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
-              li.d-flex
-                i.fas.fa-check(style="color: #feb12e")
-                p.mb-0 En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
-              li.d-flex
+                  br
+                  |En el proceso de almacenamiento, puede seguir las siguientes recomendaciones:
+            ul.lista-ul--color.ms-3
+
+              li.d-flex.ms-3
                 i.fas.fa-check(style="color: #feb12e")
                 p.mb-0 Si no se tiene montacargas, se recomienda apilar en máximo 2 niveles dentro del espacio asignado para almacenar el material.
-              li.d-flex
+              li.d-flex.ms-3
                 i.fas.fa-check(style="color: #feb12e")
                 p.mb-0 Cuando no se cuente con compactadora hidráulica, se puede almacenar el material suelto, únicamente teniendo en cuenta que este debe ir en una lona o big bag (globo) separado de otros materiales.
           .col-lg-4.col-8
@@ -318,7 +313,7 @@
               img.m-auto(src='@/assets/curso/temas/2/21.png', alt='Texto que describa la imagen')
         .row.align-items-center.justify-content-center
           .col-lg-8.mb-4.mb-md-0
-            h4 Envases con fibra blanc
+            h4 Envases con fibra blanca
             ul.lista-ul--color
               li.d-flex
                 i.fas.fa-check(style="color: #feb12e")
@@ -384,7 +379,7 @@
                 td DESCRIPCIÓN
                 td CONTAMINANTES DEL PROCESO
               tr
-                td Vidrio envase ámba
+                td Vidrio envase ámbar
                 td Se compra completo o roto. No debe mezclarse con otros colores ni con vidrio plano. El vidrio de refractarias o cafeteras no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
                 td(rowspan="5") Material ferroso (magnético): puntillas, tapas, clavos, varillas, limadura de hierro, alambre o cualquier elemento magnético. 
                   br
@@ -411,7 +406,6 @@
               tr 
                 td Vidrio plano bronce
                 td Se compra completo o roto. No debe mezclarse con otros colores ni con envases. El espejo no es reciclable, por tanto, no debe mezclarse con ningún tipo de vidrio posconsumo para venta.
-    p Para profundizar en factores alusivos al vidrio y sus procesos de reciclaje, observe con atención los videos que se le proponen a continuación:
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="zoom-in")
         .tarjeta.p-5(style="background-color: #dee9f0 ")
@@ -447,7 +441,7 @@
       .col-lg-8
         img(src='@/assets/curso/temas/2/28.svg', alt='Esquema que enuncia los pasos o acciones para el manejo de chatarra, los cuales son: recepción de chatarra, clasificación de chatarra, procesamiento de chatarra, almacenamiento de chatarra, carga y descarga de chatarra.').mb-3
         figcaption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.27
-    p.mb-5 #[b Conozca, en el siguiente recurso, los requisitos que exige el proceso de reciclaje del metal.s]
+    p.mb-5 #[b Conozca, en el siguiente recurso, los requisitos que exige el proceso de reciclaje del metal.]
     .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Reciclaje del metal
     p Requisitos que debe cumplir un residuo de metal para ser reciclado
@@ -670,7 +664,7 @@
             div(titulo="Canecas posconsumo agroquímico:")
               p Sólo serán aceptadas si presentan certificado de triple lavado, entregado por la empresa, firmado por químico o agroquímico, siempre que presenten símbolos de “peligro”, “riesgo de envenenamiento” y otros similares.
             div(titulo="Material con riesgo biológico:")
-              p Para material derivado de residuos biológicos u hospitalarios, como jeringas, instrumentación, etc, se debe tener certificado que ya fueron tratados y el riesgo fue eliminado para proceder con la fundición
+              p Para material derivado de residuos biológicos u hospitalarios, como jeringas, instrumentación, etc, se debe tener certificado que ya fueron tratados y el riesgo fue eliminado para proceder con la fundición.
             div(titulo="Material que requiere operación específica:")
               p Materiales de difícil descargue, extradimensionados o cuyo peso sea superior a 4 toneladas deberán ser comunicados con anticipación, para coordinar, o no, su recepción.
     .row.justify-content-center.mb-5
@@ -721,7 +715,7 @@
                     i.fas.fa-file 
     p.mb-5(data-aos='fade-right') Habría que decir también que los diferentes residuos que se originan en la construcción y demolición de obras pueden ser aprovechados y otros no, por lo que sólo pueden ser llevados a un sitio de disposición final. A continuación, se muestran las alternativas de uso:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 7
+      h5 Tabla 2
       br
       span.fst-italic Alternativas de gestión de uso de los residuos
     .row.justify-content-center.mb-3
@@ -860,7 +854,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p #[b Video.] Proceso de reciclaje de papel.
+                p #[b Video.] Planta reciclaje para residuos de madera, RCD y RSI.
     Separador
     #t_2_7.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.7 Residuos aparatos eléctricos, electrónicos y de telecomunicaciones (RAEE)
@@ -891,7 +885,7 @@
       .row.justify-content-center.mb-5
         .col-lg-3.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2/38.png', alt='')
         .col-lg-9 
-          p Asimismo, se han identificado las sustancias peligrosas que más comúnmente están presentes en los RAEE. Hay que tener en cuenta que los RAEE pueden o no ser peligrosos; si el RAEE es no peligroso, se debe considerar si es especial o reciclable o no aprovechable; y si es peligroso, la forma de saberlo es teniendo en cuenta su composición, como en la tabla siguiente.
+          p Asimismo, se han identificado las sustancias peligrosas que más comúnmente están presentes en los RAEE. Hay que tener en cuenta que los RAEE pueden o no ser peligrosos; si el RAEE es no peligroso, se debe considerar si es especial o reciclable o no aprovechable; y si es peligroso, la forma de saberlo es teniendo en cuenta su composición.
     .bg-1.p-5.mb-5(data-aos="zoom-in")
       .tarjeta.rounded-pill.p-3.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Según la ley

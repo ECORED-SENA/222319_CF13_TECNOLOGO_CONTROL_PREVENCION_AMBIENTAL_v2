@@ -17,7 +17,7 @@
       div(style="background-color: #ecf7f4 ").p-5(data-aos="zoom-in")
         .tarjeta.rounded-pill.p-2.d-inline-block.p-2.color-primario.mb-4
           h4.text-white.mb-0.mx-4 Conceptos generales, tratamiento de residuos
-        p.mb-5(data-aos='fade-right') Para conocer los conceptos, términos e implementación general de los sistemas de tratamiento de residuos, haga clic sobre cada una de las imágenes que se le muestran en pantalla. Cada una de ellas guarda información valiosa para usted.
+        p.mb-5(data-aos='fade-right') A continuación, conocerá los conceptos, términos e implementación general de los sistemas de tratamiento de residuos:
         SlyderF.mb-5.slyder-100(columnas="col-lg-6 col-xl-4").text-center
           .tarjeta-avatar.h-100
             img(src='@/assets/curso/temas/1/2.png' alt='AvatarTop')
@@ -122,7 +122,7 @@
                 .col-lg-2.col-4: img.p-lg-0.p-4(src='@/assets/curso/temas/1/icon.svg', alt='' style="width: 110px").me-5
                 .col-lg-10
                   .p-4.pb-0
-                    h4 Registra en tu libreta personal de apuntes cada uno de estos conceptos y definiciones. Puedes profundizar en ellos consultando en:
+                    h4 Para ampliar la información, lo invitamos a leer la Guía para el aprovechamiento de los residuos sólidos orgánicos no peligrosos.
                     p.text-small ICONTEC. (2006). Gestión Ambiental residuos sólidos – Guía para el aprovechamiento de los residuos orgánicos no peligrosos (GTC53-7). p.2 
                 .col-lg-3.col-6.mb-3.mb-sm-0
                   .p-4
