@@ -12,8 +12,7 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 La economía circular, en cambio, busca optimizar el uso de insumos, incrementar la vida útil de los productos y, al final, por medio de la recirculación de materiales, no desperdiciar nada y reutilizarlo todo. Con esto, las empresas mitigan sus impactos ambientales, optimizan sus costos, generan nuevos ingresos e incrementan su rentabilidad.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Figura 2
-      br
+      h5 Figura 4
       span.fst-italic Economía lineal vs economía circular
     img(src='@/assets/curso/temas/5/1.svg', alt='Imagen que muestra dos esquemas de funcionamiento de la economía productiva, así: Economía lineal, que vincula acciones como adquirir recursos, producir con esos recursos y desechar basura. En contraposición está la Economía circular, que recircula, renueva y regenera tanto recursos como productos alcanzados en la producción.').mb-3
     figcaption.d-inline-block.mb-5 Nota. KE-LAB (2018). Qué es la economía circular

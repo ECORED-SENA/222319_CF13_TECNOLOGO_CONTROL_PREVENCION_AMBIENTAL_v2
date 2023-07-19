@@ -168,7 +168,7 @@
                 p.mb-0 #[b Arco de plasma:] volatilización y combustión del residuo por el contacto con gas energizado.
               li.d-flex
                 i.fas.fa-check(style="color: #f9b033")
-                p.mb-0 #[b Oxidación en sal fundida:] oxidación sin llama, a temperaturas entre 1500 y 2000°C, donde los residuos están en contacto con sales alcalinas fundidas.
+                p.mb-0 #[b Oxidación en sal fundida:] oxidación sin llama, a temperaturas entre 1500 °C y 2000 °C, donde los residuos están en contacto con sales alcalinas fundidas.
         .col-lg-4.col-8: img(src='@/assets/curso/temas/3/8.png', alt='')
 
 

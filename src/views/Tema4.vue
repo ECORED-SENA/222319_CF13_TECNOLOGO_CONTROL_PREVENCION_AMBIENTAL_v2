@@ -51,7 +51,7 @@
                 td Manejo manual de cargas pesadas, uso de postura adecuada y control de peso
               tr
                 td SEGURIDAD LOCATIVA
-                td Caída de objetos , caída a nivel de piso, uso de casco y botas.
+                td Caída de objetos, caída a nivel de piso, uso de casco y botas.
               tr
                 td QUÍMICOS
                 td Inhalación o contacto con la piel de sustancias químicas que se encuentren en los materiales. Se requiere de mascarilla de gases y guantes resistentes a químicos.

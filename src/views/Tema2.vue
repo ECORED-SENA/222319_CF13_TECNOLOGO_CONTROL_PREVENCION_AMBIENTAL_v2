@@ -51,7 +51,7 @@
               .indicador--click(v-if="mostrarIndicador")
           .row(titulo="Perjudicial").justify-content-center
             .col-md-7.mb-4.mb-md-0
-              p Se consideran elementos perjudiciales para el proceso de reciclaje aquellos no fibrosos que deterioran la calidad del papel y el cartón, y que, además, perjudican el proceso productivo, los equipos y el producto final: trapos, plásticos, cauchos, hule, poliestireno expandido, vidrios, colillas de cigarrillo, residuos de aceites, deshechos de comidas, pinturas no solubles, humedad excesiva cuerdas de todo tipo, alambre, zunchos, metales de todo tipo, cabuyas, piedras, arena, madera, tierra o barro, residuos de cemento, papel alquitrán, de seguridad, químico, moneda, carbón, encerados, celofán, glassine, de fotografía, químico, papeles impregnados de parafina, de negro humo, de grasa, aceite o manteca.
+              p Se consideran elementos perjudiciales para el proceso de reciclaje aquellos no fibrosos que deterioran la calidad del papel y el cartón, y que, además, perjudican el proceso productivo, los equipos y el producto final: trapos, plásticos, cauchos, hule, poliestireno expandido, vidrios, colillas de cigarrillo, residuos de aceites, deshechos de comidas, pinturas no solubles, humedad excesiva, cuerdas de todo tipo, alambre, zunchos, metales de todo tipo, cabuyas, piedras, arena, madera, tierra o barro, residuos de cemento, papel alquitrán, de seguridad, químico, moneda, carbón, encerados, celofán, glassine, de fotografía, químico, papeles impregnados de parafina, de negro humo, de grasa, aceite o manteca.
             .col-md-5.col-6
               figure
                 img.m-auto(src='@/assets/curso/temas/2/6.png', alt='Texto que describa la imagen')
@@ -88,7 +88,6 @@
       .tarjeta.bg-white.p-1
         .titulo-sexto.color-secundario(data-aos='fade-right')
           h5 Figura 1
-          br
           span.fst-italic Ciclo del papel y cartón
         .row.justify-content-center.mb-5
           .col-lg-8
@@ -133,7 +132,7 @@
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-check(style='color: #feb12e')
-              p.mb-0 No haber estado en contacto con sustancias tóxicas, como agroquímicos o residuos peligrosos ni con bacterias patógenas.
+              p.mb-0 No haber estado en contacto con sustancias tóxicas, como agroquímicos o residuos peligrosos, ni con bacterias patógenas.
             li.d-flex
               i.fas.fa-check(style='color: #feb12e')
               p.mb-0 Sus propiedades mecánicas no deben estar deterioradas.
@@ -342,6 +341,9 @@
           img(src='@/assets/curso/temas/2/25.png', alt='')
         .tarjeta.tarjeta-azulc.p-4(titulo="Cadena del vidrio")
           p Esta es la cadena básica del vidrio
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 2
+            span.fst-italic Cadena básica del vidrio
           img(src='@/assets/curso/temas/2/26.svg', alt='')
           figcaption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.20
         .tarjeta.tarjeta-azulc.p-4(titulo="Requisitos para su reciclaje")
@@ -434,11 +436,14 @@
         .col-lg-4.col-8
           img.d-xl-none.d-block(src='@/assets/curso/temas/2/27.png', alt='' style="width: 185px").m-auto
         .col-lg-8
-          p.mb-0.p-2 El acero y la chatarra ferrosa son infinitamente reutilizables en la naturaleza, aunque se tienen unas mermas en su procesamiento. La producción de acero a partir del reciclaje de chatarra ferrosa es amigable y sostenible con el medio ambiente, porque disminuye el consumo de recursos naturales no renovables. El acero producido a partir del reciclaje y fundición de chatarra ferrosa queda en condición de acero nuevo cumpliendo con todas las características físico-mecánicas exigidas en las normas nacionales e internacionales para la fabricación de acero.
+          p.mb-0.p-2 El acero y la chatarra ferrosa son infinitamente reutilizables en la naturaleza, aunque se tienen unas mermas en su procesamiento. La producción de acero a partir del reciclaje de chatarra ferrosa es amigable y sostenible con el medio ambiente, porque disminuye el consumo de recursos naturales no renovables. El acero producido a partir del reciclaje y fundición de chatarra ferrosa queda en condición de acero nuevo, cumpliendo con todas las características físico-mecánicas exigidas en las normas nacionales e internacionales para la fabricación de acero.
     .pt-lg-5.pt-0   
       p #[b La mayoría de siderúrgicas colombianas son semiintegradas, lo que implica que su materia prima es la chatarra ferrosa.] La chatarra ferrosa se puede procesar, manipular, preparar y fundir, siempre y cuando no presente un riesgo para la salud de las personas, el medio ambiente o riesgo para los bienes e instalaciones.
     .row.justify-content-center.mb-5
       .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 3
+          span.fst-italic Manejo de la chatarra ferrosa
         img(src='@/assets/curso/temas/2/28.svg', alt='Esquema que enuncia los pasos o acciones para el manejo de chatarra, los cuales son: recepción de chatarra, clasificación de chatarra, procesamiento de chatarra, almacenamiento de chatarra, carga y descarga de chatarra.').mb-3
         figcaption Nota. ANDI (2017). Calidades de materiales para reciclaje. p.27
     p.mb-5 #[b Conozca, en el siguiente recurso, los requisitos que exige el proceso de reciclaje del metal.]
@@ -843,13 +848,13 @@
             .col-1: img(src='@/assets/curso/temas/atencion.svg', alt='')
             .col-lg-11
               p.mb-0.fw-bold Para profundizar en este punto del contenido, se le invita a consultar cuidadosamente los siguientes recursos. 
-          a.anexo.mb-4(href="https://www.youtube.com/watch?v=V4cRf5Nas_k" target="_blank" type="application/pdf")
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=Y0wYrrdN48Q" target="_blank" type="application/pdf")
             .row.justify-content-around.align-items-center
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p #[b Video.] ¿Cómo se hace el reciclaje de desechos de construcción y llantas?
-          a.anexo.mb-4(href="https://www.youtube.com/watch?v=Y0wYrrdN48Q" target="_blank" type="application/pdf")
+          a.anexo.mb-4(href="https://www.youtube.com/watch?v=kmY7FGBXzEU" target="_blank" type="application/pdf")
             .row.justify-content-around.align-items-center
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")

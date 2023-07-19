@@ -246,7 +246,7 @@ export default {
     {
       termino: 'Gestión externa de residuos',
       significado:
-        'Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 4) Recogida y transporte a Plantas de Transferencia o Tratamiento. 5) Tratamiento y eliminación. Desde un punto de vista general los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos, desde el momento de su generación hasta que son eliminados.  <br>Área de salud de Cáceres (2015) Manual de gestión interna y externa de residuos. p.2 ',
+        'Son las operaciones realizadas fuera del centro productor; recogida, traslado al centro de tratamiento y eliminación. 4) Recogida y transporte a Plantas de Transferencia o Tratamiento. 5) Tratamiento y eliminación. Desde un punto de vista general, los residuos que sufren una mala gestión, ya sea en su recogida, tratamiento o eliminación final, provocan una degradación del Medio Ambiente, por lo que resulta imprescindible un adecuado tratamiento de estos, desde el momento de su generación hasta que son eliminados.  <br>Área de salud de Cáceres (2015) Manual de gestión interna y externa de residuos. p.2 ',
     },
     {
       termino: 'Gestión integral de residuos sólidos',
